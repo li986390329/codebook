@@ -20,3 +20,17 @@ Record books about reading refactoring code.
 > * 代码**结构混乱**，可读性差
 
 > * 各个状态**耦合度高**, 维护成本高
+
+#### 重构过程
+> * 使用TypeScript, 就是给变量进行静态类型检测, 提前声明所需的类型, 不同类型会被检测出来
+```
+ type TypeApple = {name: String, count: numeber}
+ /** @type {TypeApple} */
+ const apple = {name: 'foo', count: 100}
+```
+
+> * 细化模块分类, 例如: 模块中包含操作相关逻辑, 也有操作面板逻辑, 随着业务发展, 操作面板的逻辑
+> 越来越多, 完全可以将操作面板逻辑单独抽成一个模块来处理。
+
+> * 解耦可视化库和vue/vuex, 在vue或vuex模块中代码越写越长, 越来越难以维护, 重构时，单独将可视化库相关
+> 逻辑抽象成模块, 封装成类
