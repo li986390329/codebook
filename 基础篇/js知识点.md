@@ -162,7 +162,44 @@
   * 三种状态: pending过渡态, fulfilled 完成态, rejected 失败态
   * 优势: 可读性好，便于维护，解决回调地狱
   * 缺点： 无法停止，指定回调，pending状态无法确定进行到哪一步
-  *
+
+  手写promise
+  ```
+    function Promise (exec) {
+      let self = this;
+      this.value = undefined
+      this.reason = undefined
+      this.status = 'pending'
+      this.onResolveCallbacks = []
+      this.onRejectCallbacks = []
+
+      function resolve (value) {
+        if (self.status === 'pending') {
+          self.value = value
+          self.status = 'resolved'
+          self.onResolveCallbacks.forEach(fn => fn())
+        }
+      }
+
+      function reject (reason) {
+        if (self.status === 'pending') {
+          self.reason = reason
+          self.status = 'rejected'
+          self.onRejectCallbacks.forEach(fn => fn())
+        }
+      }
+      try {
+        exec(resolve, reject)
+      } catch (e) {
+        reject(e)
+      }
+    }
+    Promise.prototype.then = function (onFulfilled, onRejected) {
+      let self = this
+
+    }
+  ```
+
 ### 浏览器内核
   Chromium 是多进程架构
   * 架构
