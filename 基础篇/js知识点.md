@@ -195,11 +195,90 @@
       }
     }
     Promise.prototype.then = function (onFulfilled, onRejected) {
-      let self = this
-
+      let self = this;
+      if (this.status === 'resolved') {
+        onFulfilled(self.value);
+      }
+      if (this.status === 'rejected') {
+        onRejected(self.reason);
+      }
+      if (this.status === 'pending') {
+        this.onResolvedCallbacks.push(() => {
+          onFulfilled(self.value)
+        })
+        this.onRejectedCallbacks.push(() => {
+          onRejected(self.reason)
+        })
+      }
     }
+
+    let promise = new Promise ((resolve, reject) => {
+      setTimeout(() => {
+        resolve('success')
+      }, 1000)
+    })
+    promise.then(data => {
+      console.log(data)
+    }, err => {
+      console.log(err)
+    })
   ```
 
+### new语句
+```
+  Object.beget = function (o) {
+    var F = function (o) {};
+    F.prototype = o;
+    return new F;
+  }
+  var Cat = {
+    name:'',
+    saying:'meow'
+  };
+　var myCat = Object.beget(Cat);
+  myCat.name = 'mimi';
+```
+
+### [页面渲染性能优化](https://juejin.im/entry/5bacd491e51d450e4f38d30a)
+  渲染过程
+    ![webkit](./img/3.webp)
+
+  **Webkit技术内幕**
+    ![yinqing](./img/4.webp)
+  * 渲染引擎: HTML解析器、CSS解析器、JS解析器(独立出来)
+  * DOM渲染层, 一个页面是有许多许多层级组成的, 实际上一个页面在构建完render tree之后,是经历了:
+    * 浏览器会先获取DOM树并依据样式将其分割成多个独立的渲染层
+    * CPU 将每一层绘制进绘图中
+    * 将位图作为纹理上传至GPU(显卡)绘制
+    * GPU 将所有的渲染层缓存(如果下次上传的渲染层没有发生变化, GPU就不要对其进行重绘)并复合多个渲染层最终形成我们的图像
+  * 布局是由CPU处理的而绘制是由GPU完成的
+  * 我们把那些一直发生大量重排重绘的元素提取出来, 单独触发一个渲染层, 那样这个元素不就不会连累到其他元素一起重绘了, 什么情况下会触发渲染层, 比如: video元素, webGL, Canvas, css3 3D, CSS滤镜、z-index大于某个相邻节点的元素都会触发新的layer,
+  ```
+    最简单触发:
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  ```
+  我们把容易触发重排重绘的元素单独触发渲染层, 让它与那些静态元素隔离, 让GPU分担更多的渲染工作， 这样的措施成为硬件加速，或者是GPU加速
+
+  * 重排和重绘都会阻塞浏览器。要提高性能就要降低重排和重绘的频率和成本。尽可能少的触发重新渲染。重排是由CPU处理，重绘是GPU处理的, cpu的处理效率不及GPU, 重排一定会引发重绘, 而重绘不一定会引发重排, 着重减少重排的发生
+  ```
+    border
+    bottom
+    clear
+    display
+    flex
+    margin
+    vertical-align
+    order
+  ```
+  优化方案:
+    1. css属性读写分离
+    2. 通过切换class或者style.csstext属性去批量操作元素样式
+    3. DOM元素离线更新, 组装完成后再一次插入页面, 或者用display:none先隐藏元素
+    4. 没用元素设为visibilty:hidden, 减少重绘的压力
+    5. 压缩DOM深度，一个渲染层内不要有过深的子元素，少用DOM完成页面样式，多使用伪元素或者box-shadow取代
+    6. 图片渲染前指定大小
+    7. 对页面中可能发生大量重排重绘的元素单独触发渲染层，使用GPU来分担CPU的压力
 ### 浏览器内核
   Chromium 是多进程架构
   * 架构
