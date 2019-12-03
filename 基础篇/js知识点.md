@@ -279,6 +279,19 @@
     5. 压缩DOM深度，一个渲染层内不要有过深的子元素，少用DOM完成页面样式，多使用伪元素或者box-shadow取代
     6. 图片渲染前指定大小
     7. 对页面中可能发生大量重排重绘的元素单独触发渲染层，使用GPU来分担CPU的压力
+
+### PWA
+  [从SPA到PWA](https://harttle.land/2019/03/27/from-spa-to-pwa.html)
+
+  safari ios还没有支持Service worker信息。
+
+  Service Worker是PWA提升性能核心
+  优势:
+  * 离线可用
+  * 设备集成度更好
+  * 页面浏览位置
+
+
 ### 浏览器内核
   Chromium 是多进程架构
   * 架构

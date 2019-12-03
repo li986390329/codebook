@@ -182,3 +182,27 @@ const escapeHTML = str => {
 
 // 获取中位数: https://liuhao.im/chinese/2016/07/22/median-of-two-sorted-arrays.html
 const cache = Object.create(null);
+
+// 请把<ul><li>第1行</li><li>第2行</li>...</ul>（ul之间有10个li元素）插入body里面
+var lis = ''
+var liLen = 10
+var ul = document.createElement("ul")
+for (let i = 0; i < liLen; i++) {
+  lis += "<li>第" + i + "行</li>";
+}
+ul.innerHTML = lis;
+document.body.appendChild(ul);
+
+// 不使用loop循环，创建一个长度为100的数组，并且每个元素的值等于它的下标。
+var a = new Array(100).join(',').split(',').map((item, index) => {
+  return index
+})
+
+// 实现对数组进行乱序
+sign = a.sort((a, b) => {
+  sign = (Math.random() > 0.5) ? 1 : -1;
+  return (a - b) * sign;
+})
+
+//
+[...new Set([1,2,1,1])]
