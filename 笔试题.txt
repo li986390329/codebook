@@ -19,8 +19,8 @@ var opt = {
     }
 }
 
-console.log(opt.name2); //1. 这里打印出什么？Amy
-console.log(opt.say); //2. 这里打印出什么？ function
+console.log(opt.name2); //1. 这里打印出什么？''
+console.log(opt.say); //2. 这里打印出什么？ function () {return this.name;}
 opt.say2(); //3. 这里打印出什么？ undefined
 opt.say3(); //4. 这里打印出什么？Amy
 
@@ -146,6 +146,7 @@ function applyMiddleWare() {
 https://zos.alipayobjects.com/skylark/fa965c45-088f-4a07-9f41-58af0871c0cb/attach/8107/4cb06836ae8f268b/image.png
 */
 
+![5](./img/5.png)
 // 输入框组件, 边框蓝色, 右侧有 2/10
 // Input 控件 限制输入字数, v-model绑定输入数据
 // 实时展示当前输入字数,可以用label绑定输入框数据,通过绝对定位，放在输入框内部
