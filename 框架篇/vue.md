@@ -59,3 +59,21 @@
 
   obj.txt = '123'
  ```
+
+  [双向绑定中有几种方式](https://juejin.im/post/5acd0c8a6fb9a028da7cdfaf): `发布-订阅`, `脏检测`, `数据劫持`, `数据模型`
+
+**数据劫持**:
+  * Object.defineProperty.
+  * proxy
+  * Object.observe(废弃)
+
+Object.defineProperty缺点:
+  * 无法监听数组变化, 只针对八种方法进行了劫持
+  * 只能劫持对象的属性, 因此我们需要对每个对象的每个属性进行遍历, 可能要进行深度遍历
+
+Proxy实现的双向绑定的特点:
+  * 可以直接监听对象而非属性, 劫持了整个对象
+  * 可以监听数组的变化
+  * 返回的是新的对象
+  * 兼容性问题, 无法用polyfill磨平
+ ### vue2和vue3

@@ -291,6 +291,18 @@
   * 设备集成度更好
   * 页面浏览位置
 
+### es5和es6
+  * es5的继承先生成子类的实例, 再调用父类的构造函数修饰子类实例,
+  * ES6的继承先生成父类实例，然后再调用子类的构造函数修饰父类实例。
+
+  这样可以使得ES6可以继承内置对象。
+
+### [JS 基础类型](https://github.com/xiaomuzhu/ElemeFE-node-interview/blob/master/JavaScript%E5%9F%BA%E7%A1%80/JavaScript%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.md)
+  原始类型: undefined, null, boolean, number, string, symbol(栈内存)
+
+  引用类型: Object(堆内存)
+
+  稀疏数组: 指的是含有空白或空缺单元的数组
 
 ### 浏览器内核
   Chromium 是多进程架构
