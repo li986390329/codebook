@@ -205,4 +205,33 @@ sign = a.sort((a, b) => {
 })
 
 //
-[...new Set([1,2,1,1])]
+[...new Set([1, 2, 1, 1])]
+
+// 翻转字符串
+
+function recv(str) {
+  let strArr = str.split('');
+  let tempArr = [];
+  for (let i = strArr.length - 1; i >= 0; i++) {
+    tempArr.push(strArr[i]);
+  }
+  return tempArr.join('')
+}
+// https://juejin.im/post/5d68f836f265da03992988ae
+// 排序
+function quickSort(array) {
+  if (array.length === 1) return array
+  let frontArr = []
+  let bebindArr = []
+  let mid = parseInt(array.length/2)
+  let midValue = array[mid]
+  array.map(i => {
+    if (i < mid) {
+      frontArr.push(i);
+    }
+    if (i > mid) {
+      behindArr.push(i);
+    }
+  })
+  return quickSort(frontArr).concat([mid], quickSort(bebindArr))
+}
