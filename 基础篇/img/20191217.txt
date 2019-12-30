@@ -1,0 +1,3547 @@
+[10:27:12.073] [LOG] - "language：zh-cn"
+[10:27:12.165] [LOG] - "sandbox filesystem init success"
+[10:27:12.165] [LOG] - "begin check web uuid"
+[10:27:12.166] [INFO] - "clear useless logs."  {
+ "size": 524288000,
+ "fs": {}
+}
+[10:27:12.167] [INFO] - "Logger System Init Success."
+[10:27:12.168] [LOG] - "localStorage capacity:"  "16.87890625KB"
+[10:27:12.189] [LOG] - "create sandboxFS dir success:UUID"
+[10:27:12.192] [INFO] - "create or open sandbox dir success:Logs"
+[10:27:12.203] [LOG] - "save web-uuid end."
+[10:27:13.664] [INFO] - "init dbworker success"
+[10:27:13.741] [LOG] - "Open DB Success! dbName is "  "vanish-1001643"
+[10:27:13.744] [ERROR] - {
+ "stack": "TypeError: Cannot read property 'length' of null\n    at readyToSendCalendarEventSysMessage (webpack-internal:///562:3232:92)\n    at Array.wrappedActionHandler (webpack-internal:///10:604:15)\n    at Store.dispatch (webpack-internal:///10:347:15)\n    at Store.boundDispatch [as dispatch] (webpack-internal:///10:272:21)\n    at Object.setWebOrPCLocalMsg (webpack-internal:///69:385:25)\n    at IDBOpenDBRequest._callee$ (webpack-internal:///538:213:29)\n    at tryCatch (webpack-internal:///782:65:40)\n    at Generator.invoke [as _invoke] (webpack-internal:///782:303:22)\n    at Generator.prototype.<computed> [as next] (webpack-internal:///782:117:21)\n    at step (webpack-internal:///11:17:30)",
+ "message": "Cannot read property 'length' of null"
+}
+[10:27:13.756] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | configuration parameters after validation:"
+[10:27:13.756] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · viaHost: \"h90tl7hvk9fl.invalid\""
+[10:27:13.756] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · uri: sip:1001643@vanish2.myhexin.com:51967"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · custom: {}"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · displayName: \"测试1-李合伟\""
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · password: NOT SHOWN"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · registerExpires: 600"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · register: true"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · registrarServer: sip:vanish2.myhexin.com:51967"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · transportConstructor: Transport"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · transportOptions: {\"wsServers\":[\"wss://vanish2.myhexin.com:51967/sip\"]}"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · userAgentString: \"JsSIP 3.0.13\""
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · noAnswerTimeout: 60000"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · hackViaTcp: false"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · hackIpInContact: false"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · hackWssInTransport: false"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · hackAllowUnregisteredOptionTags: false"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactoryOptions: {\"constraints\":{},\"peerConnectionOptions\":{}}"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · contactName: \"ni08rv68\""
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · contactTransport: \"ws\""
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · forceRport: false"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · autostart: true"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · autostop: true"
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · rel100: \"none\""
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · dtmfType: \"info\""
+[10:27:13.757] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · replaces: \"none\""
+[10:27:13.758] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactory: function defaultFactory(session, options) {\n        var logger = session.ua.getLogger('sip.invitecontext.sessionDescriptionHandler', session.id);\n        var SessionDescriptionHandlerObserver = __webpack_require__(31);\n        var observer = new SessionDescriptionHandlerObserver(session, options);\n        return new SessionDescriptionHandler(logger, observer, options);\n    }"
+[10:27:13.758] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · authenticationFactory: undefined"
+[10:27:13.758] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · allowLegacyNotifications: false"
+[10:27:13.758] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · allowOutOfDialogRefers: false"
+[10:27:13.758] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · instanceId: \"f267b8ae-6a65-40c0-a00d-6c8b80b098d6\""
+[10:27:13.758] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · sipjsId: \"q92ip\""
+[10:27:13.758] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · hostportParams: \"vanish2.myhexin.com:51967\""
+[10:27:13.758] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | · authorizationUser: \"1001643\""
+[10:27:13.761] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[10:27:13.762] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | configuration parameters after validation:"
+[10:27:13.762] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | · wsServers: [{\"ws_uri\":\"wss://vanish2.myhexin.com:51967/sip\",\"sip_uri\":\"<sip:vanish2.myhexin.com:51967;transport=ws;lr>\",\"weight\":0,\"isError\":false,\"scheme\":\"WSS\"}]"
+[10:27:13.763] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | · connectionTimeout: 5"
+[10:27:13.763] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | · maxReconnectionAttempts: 3"
+[10:27:13.763] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | · reconnectionTimeout: 4"
+[10:27:13.763] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | · keepAliveInterval: 0"
+[10:27:13.763] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | · keepAliveDebounce: 10"
+[10:27:13.763] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | · traceSip: false"
+[10:27:13.763] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | connecting to WebSocket wss://vanish2.myhexin.com:51967/sip"
+[10:27:13.767] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[10:27:13.767] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.ua | UA is in STARTING status, not opening new connection"
+[10:27:13.770] [INFO] - "upload user device info success."
+[10:27:13.784] [LOG] - "Tue Dec 17 2019 10:27:13 GMT+0800 (中国标准时间) | sip.transport | WebSocket wss://vanish2.myhexin.com:51967/sip connected"
+[10:27:13.822] [LOG] - "sip Registered"  "SIP/2.0 200 OK\r\nVia: SIP/2.0/WSS h90tl7hvk9fl.invalid;branch=z9hG4bK5375877;rport=62173;received=172.16.147.239\r\nTo: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=e12901d75706298770b8f5b232a33100.213b\r\nFrom: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=t8njvdlr61\r\nCall-ID: mrrg1hs170dl2j59u5nbng\r\nCSeq: 5828 REGISTER\r\nContact: <sip:ni08rv68@h90tl7hvk9fl.invalid;transport=ws>;expires=600;received=\"sip:172.16.147.239:62173;transport=ws\";pub-gruu=\"sip:1001643@vanish2.myhexin.com;gr=urn:uuid:f267b8ae-6a65-40c0-a00d-6c8b80b098d6\";temp-gruu=\"sip:uloc-5def9bee-48-d8e81-87ccf473@vanish2.myhexin.com;gr\";+sip.instance=\"<urn:uuid:f267b8ae-6a65-40c0-a00d-6c8b80b098d6>\";reg-id=1\r\nSupported: outbound\r\nRequire: outbound\r\nServer: Vanish 1.0.1\r\nContent-Length: 0\r\n\r\n"  {
+ "protocol": "SIP",
+ "transport": "WSS",
+ "host_type": "IPv4",
+ "host": "h90tl7hvk9fl.invalid",
+ "branch": "z9hG4bK5375877",
+ "received": "172.16.147.239"
+}
+[10:27:14.579] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 724078230,
+  "sequence_time": 1576549634,
+  "time_in_millisecond": 1576549634287,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[10:28:12.172] [INFO] - "create or open sandbox dir success:Logs"
+[10:29:12.173] [INFO] - "create or open sandbox dir success:Logs"
+[10:30:12.277] [INFO] - "create or open sandbox dir success:Logs"
+[10:31:12.277] [INFO] - "create or open sandbox dir success:Logs"
+[10:32:12.278] [INFO] - "create or open sandbox dir success:Logs"
+[10:32:51.698] [LOG] - "send sync sip:"  {
+ "id": "10016435765499711",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576549971525"
+ },
+ "gcode": "29499"
+}
+[10:32:52.073] [LOG] - "create sandboxFS dir success:group29499"
+[10:32:53.169] [LOG] - "create sandboxFS dir success:group29499"
+[10:32:53.189] [LOG] - "create sandboxFS dir success:group29499"
+[10:33:12.179] [INFO] - "create or open sandbox dir success:Logs"
+[10:34:12.175] [INFO] - "create or open sandbox dir success:Logs"
+[10:34:14.364] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 724078230,
+  "sequence_time": 1576550054,
+  "time_in_millisecond": 1576550054232,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[10:35:12.172] [INFO] - "create or open sandbox dir success:Logs"
+[10:36:12.172] [INFO] - "create or open sandbox dir success:Logs"
+[10:37:10.907] [LOG] - "sip Registered"  "SIP/2.0 200 OK\r\nVia: SIP/2.0/WSS h90tl7hvk9fl.invalid;branch=z9hG4bK8054243;rport=62173;received=172.16.147.239\r\nTo: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=e12901d75706298770b8f5b232a33100.5248\r\nFrom: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=t8njvdlr61\r\nCall-ID: mrrg1hs170dl2j59u5nbng\r\nCSeq: 5830 REGISTER\r\nContact: <sip:ni08rv68@h90tl7hvk9fl.invalid;transport=ws>;expires=600;received=\"sip:172.16.147.239:62173;transport=ws\";pub-gruu=\"sip:1001643@vanish2.myhexin.com;gr=urn:uuid:f267b8ae-6a65-40c0-a00d-6c8b80b098d6\";temp-gruu=\"sip:uloc-5def9bee-48-d8e81-87ccf473@vanish2.myhexin.com;gr\";+sip.instance=\"<urn:uuid:f267b8ae-6a65-40c0-a00d-6c8b80b098d6>\";reg-id=1\r\nSupported: outbound\r\nRequire: outbound\r\nServer: Vanish 1.0.1\r\nContent-Length: 0\r\n\r\n"  {
+ "protocol": "SIP",
+ "transport": "WSS",
+ "host_type": "IPv4",
+ "host": "h90tl7hvk9fl.invalid",
+ "branch": "z9hG4bK8054243",
+ "received": "172.16.147.239"
+}
+[10:37:10.963] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 724078230,
+  "sequence_time": 1576550230,
+  "time_in_millisecond": 1576550230817,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[10:37:12.172] [INFO] - "create or open sandbox dir success:Logs"
+[10:38:12.178] [INFO] - "create or open sandbox dir success:Logs"
+[10:38:13.251] [INFO] - "Page Closed."
+[10:38:15.614] [LOG] - "language：zh-cn"
+[10:38:15.727] [LOG] - "sandbox filesystem init success"
+[10:38:15.728] [LOG] - "begin check web uuid"
+[10:38:15.729] [INFO] - "clear useless logs."  {
+ "size": 524288000,
+ "fs": {}
+}
+[10:38:15.730] [INFO] - "Logger System Init Success."
+[10:38:15.731] [LOG] - "localStorage capacity:"  "16.94921875KB"
+[10:38:15.761] [LOG] - "create sandboxFS dir success:UUID"
+[10:38:15.766] [INFO] - "create or open sandbox dir success:Logs"
+[10:38:15.770] [INFO] - "create or open sandbox dir success:Logs"
+[10:38:16.151] [INFO] - "init dbworker success"
+[10:38:16.162] [INFO] - "Log removed."  "20191210"
+[10:38:16.197] [LOG] - "save web-uuid end."
+[10:38:16.199] [INFO] - "upload user device info success."
+[10:38:16.248] [LOG] - "Open DB Success! dbName is "  "vanish-1001643"
+[10:38:16.252] [ERROR] - {
+ "stack": "TypeError: Cannot read property 'length' of null\n    at readyToSendCalendarEventSysMessage (webpack-internal:///562:3232:92)\n    at Array.wrappedActionHandler (webpack-internal:///10:604:15)\n    at Store.dispatch (webpack-internal:///10:347:15)\n    at Store.boundDispatch [as dispatch] (webpack-internal:///10:272:21)\n    at Object.setWebOrPCLocalMsg (webpack-internal:///69:385:25)\n    at IDBOpenDBRequest._callee$ (webpack-internal:///538:213:29)\n    at tryCatch (webpack-internal:///782:65:40)\n    at Generator.invoke [as _invoke] (webpack-internal:///782:303:22)\n    at Generator.prototype.<computed> [as next] (webpack-internal:///782:117:21)\n    at step (webpack-internal:///11:17:30)",
+ "message": "Cannot read property 'length' of null"
+}
+[10:38:16.266] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | configuration parameters after validation:"
+[10:38:16.266] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · viaHost: \"uqt523b9vuuj.invalid\""
+[10:38:16.267] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · uri: sip:1001643@vanish2.myhexin.com:51967"
+[10:38:16.267] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · custom: {}"
+[10:38:16.268] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · displayName: \"测试1-李合伟\""
+[10:38:16.268] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · password: NOT SHOWN"
+[10:38:16.268] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · registerExpires: 600"
+[10:38:16.269] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · register: true"
+[10:38:16.269] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · registrarServer: sip:vanish2.myhexin.com:51967"
+[10:38:16.272] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · transportConstructor: Transport"
+[10:38:16.272] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · transportOptions: {\"wsServers\":[\"wss://vanish2.myhexin.com:51967/sip\"]}"
+[10:38:16.272] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · userAgentString: \"JsSIP 3.0.13\""
+[10:38:16.273] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · noAnswerTimeout: 60000"
+[10:38:16.273] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · hackViaTcp: false"
+[10:38:16.273] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · hackIpInContact: false"
+[10:38:16.273] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · hackWssInTransport: false"
+[10:38:16.273] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · hackAllowUnregisteredOptionTags: false"
+[10:38:16.274] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactoryOptions: {\"constraints\":{},\"peerConnectionOptions\":{}}"
+[10:38:16.274] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · contactName: \"dgcm0bfr\""
+[10:38:16.274] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · contactTransport: \"ws\""
+[10:38:16.274] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · forceRport: false"
+[10:38:16.274] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · autostart: true"
+[10:38:16.275] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · autostop: true"
+[10:38:16.275] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · rel100: \"none\""
+[10:38:16.275] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · dtmfType: \"info\""
+[10:38:16.275] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · replaces: \"none\""
+[10:38:16.275] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactory: function defaultFactory(session, options) {\n        var logger = session.ua.getLogger('sip.invitecontext.sessionDescriptionHandler', session.id);\n        var SessionDescriptionHandlerObserver = __webpack_require__(31);\n        var observer = new SessionDescriptionHandlerObserver(session, options);\n        return new SessionDescriptionHandler(logger, observer, options);\n    }"
+[10:38:16.276] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · authenticationFactory: undefined"
+[10:38:16.276] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · allowLegacyNotifications: false"
+[10:38:16.276] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · allowOutOfDialogRefers: false"
+[10:38:16.276] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · instanceId: \"3cb858e3-be16-41f4-bd48-34cf83a3069d\""
+[10:38:16.276] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · sipjsId: \"saq3p\""
+[10:38:16.277] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · hostportParams: \"vanish2.myhexin.com:51967\""
+[10:38:16.277] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | · authorizationUser: \"1001643\""
+[10:38:16.281] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[10:38:16.283] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | configuration parameters after validation:"
+[10:38:16.284] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | · wsServers: [{\"ws_uri\":\"wss://vanish2.myhexin.com:51967/sip\",\"sip_uri\":\"<sip:vanish2.myhexin.com:51967;transport=ws;lr>\",\"weight\":0,\"isError\":false,\"scheme\":\"WSS\"}]"
+[10:38:16.284] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | · connectionTimeout: 5"
+[10:38:16.284] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | · maxReconnectionAttempts: 3"
+[10:38:16.285] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | · reconnectionTimeout: 4"
+[10:38:16.285] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | · keepAliveInterval: 0"
+[10:38:16.285] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | · keepAliveDebounce: 10"
+[10:38:16.286] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | · traceSip: false"
+[10:38:16.290] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | connecting to WebSocket wss://vanish2.myhexin.com:51967/sip"
+[10:38:16.294] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[10:38:16.295] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.ua | UA is in STARTING status, not opening new connection"
+[10:38:16.325] [LOG] - "Tue Dec 17 2019 10:38:16 GMT+0800 (中国标准时间) | sip.transport | WebSocket wss://vanish2.myhexin.com:51967/sip connected"
+[10:38:16.429] [LOG] - "sip Registered"  "SIP/2.0 200 OK\r\nVia: SIP/2.0/WSS uqt523b9vuuj.invalid;branch=z9hG4bK6411901;rport=62687;received=172.16.147.239\r\nTo: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=e12901d75706298770b8f5b232a33100.c2a1\r\nFrom: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=s5bdof4utg\r\nCall-ID: a09gpu76b8qqdag0rnmj3a\r\nCSeq: 8042 REGISTER\r\nContact: <sip:dgcm0bfr@uqt523b9vuuj.invalid;transport=ws>;expires=600;received=\"sip:172.16.147.239:62687;transport=ws\";pub-gruu=\"sip:1001643@vanish2.myhexin.com;gr=urn:uuid:3cb858e3-be16-41f4-bd48-34cf83a3069d\";temp-gruu=\"sip:uloc-5def9bee-46-7d261-87ccf473@vanish2.myhexin.com;gr\";+sip.instance=\"<urn:uuid:3cb858e3-be16-41f4-bd48-34cf83a3069d>\";reg-id=1\r\nSupported: outbound\r\nRequire: outbound\r\nServer: Vanish 1.0.1\r\nContent-Length: 0\r\n\r\n"  {
+ "protocol": "SIP",
+ "transport": "WSS",
+ "host_type": "IPv4",
+ "host": "uqt523b9vuuj.invalid",
+ "branch": "z9hG4bK6411901",
+ "received": "172.16.147.239"
+}
+[10:38:17.690] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 724078230,
+  "sequence_time": 1576550297,
+  "time_in_millisecond": 1576550297338,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[10:39:15.737] [INFO] - "create or open sandbox dir success:Logs"
+[10:40:16.278] [INFO] - "create or open sandbox dir success:Logs"
+[10:41:15.735] [INFO] - "create or open sandbox dir success:Logs"
+[10:41:36.301] [INFO] - "Page Closed."
+[10:41:38.751] [LOG] - "language：zh-cn"
+[10:41:39.982] [LOG] - "sandbox filesystem init success"
+[10:41:39.982] [LOG] - "begin check web uuid"
+[10:41:39.985] [INFO] - "clear useless logs."  {
+ "size": 524288000,
+ "fs": {}
+}
+[10:41:39.985] [INFO] - "Logger System Init Success."
+[10:41:39.986] [LOG] - "localStorage capacity:"  "16.87890625KB"
+[10:41:40.005] [LOG] - "create sandboxFS dir success:UUID"
+[10:41:40.006] [INFO] - "create or open sandbox dir success:Logs"
+[10:41:40.006] [INFO] - "create or open sandbox dir success:Logs"
+[10:41:40.021] [LOG] - "save web-uuid end."
+[10:41:40.063] [INFO] - "init dbworker success"
+[10:41:40.092] [INFO] - "upload user device info success."
+[10:41:40.148] [LOG] - "Open DB Success! dbName is "  "vanish-1001643"
+[10:41:40.151] [ERROR] - {
+ "stack": "TypeError: Cannot read property 'length' of null\n    at readyToSendCalendarEventSysMessage (webpack-internal:///562:3232:92)\n    at Array.wrappedActionHandler (webpack-internal:///10:604:15)\n    at Store.dispatch (webpack-internal:///10:347:15)\n    at Store.boundDispatch [as dispatch] (webpack-internal:///10:272:21)\n    at Object.setWebOrPCLocalMsg (webpack-internal:///69:385:25)\n    at IDBOpenDBRequest._callee$ (webpack-internal:///538:213:29)\n    at tryCatch (webpack-internal:///782:65:40)\n    at Generator.invoke [as _invoke] (webpack-internal:///782:303:22)\n    at Generator.prototype.<computed> [as next] (webpack-internal:///782:117:21)\n    at step (webpack-internal:///11:17:30)",
+ "message": "Cannot read property 'length' of null"
+}
+[10:41:40.162] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | configuration parameters after validation:"
+[10:41:40.163] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · viaHost: \"lf8kltcmadjv.invalid\""
+[10:41:40.163] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · uri: sip:1001643@vanish2.myhexin.com:51967"
+[10:41:40.163] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · custom: {}"
+[10:41:40.163] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · displayName: \"测试1-李合伟\""
+[10:41:40.164] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · password: NOT SHOWN"
+[10:41:40.164] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · registerExpires: 600"
+[10:41:40.164] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · register: true"
+[10:41:40.164] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · registrarServer: sip:vanish2.myhexin.com:51967"
+[10:41:40.164] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · transportConstructor: Transport"
+[10:41:40.164] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · transportOptions: {\"wsServers\":[\"wss://vanish2.myhexin.com:51967/sip\"]}"
+[10:41:40.165] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · userAgentString: \"JsSIP 3.0.13\""
+[10:41:40.165] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · noAnswerTimeout: 60000"
+[10:41:40.165] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · hackViaTcp: false"
+[10:41:40.165] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · hackIpInContact: false"
+[10:41:40.166] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · hackWssInTransport: false"
+[10:41:40.166] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · hackAllowUnregisteredOptionTags: false"
+[10:41:40.166] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactoryOptions: {\"constraints\":{},\"peerConnectionOptions\":{}}"
+[10:41:40.166] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · contactName: \"figh5qgd\""
+[10:41:40.167] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · contactTransport: \"ws\""
+[10:41:40.167] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · forceRport: false"
+[10:41:40.167] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · autostart: true"
+[10:41:40.167] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · autostop: true"
+[10:41:40.168] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · rel100: \"none\""
+[10:41:40.168] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · dtmfType: \"info\""
+[10:41:40.168] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · replaces: \"none\""
+[10:41:40.168] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactory: function defaultFactory(session, options) {\n        var logger = session.ua.getLogger('sip.invitecontext.sessionDescriptionHandler', session.id);\n        var SessionDescriptionHandlerObserver = __webpack_require__(31);\n        var observer = new SessionDescriptionHandlerObserver(session, options);\n        return new SessionDescriptionHandler(logger, observer, options);\n    }"
+[10:41:40.168] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · authenticationFactory: undefined"
+[10:41:40.169] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · allowLegacyNotifications: false"
+[10:41:40.169] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · allowOutOfDialogRefers: false"
+[10:41:40.169] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · instanceId: \"3edcc464-2481-4ea1-a950-c3e33b86bd5d\""
+[10:41:40.169] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · sipjsId: \"sf21m\""
+[10:41:40.169] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · hostportParams: \"vanish2.myhexin.com:51967\""
+[10:41:40.169] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | · authorizationUser: \"1001643\""
+[10:41:40.174] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[10:41:40.176] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | configuration parameters after validation:"
+[10:41:40.176] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | · wsServers: [{\"ws_uri\":\"wss://vanish2.myhexin.com:51967/sip\",\"sip_uri\":\"<sip:vanish2.myhexin.com:51967;transport=ws;lr>\",\"weight\":0,\"isError\":false,\"scheme\":\"WSS\"}]"
+[10:41:40.176] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | · connectionTimeout: 5"
+[10:41:40.176] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | · maxReconnectionAttempts: 3"
+[10:41:40.177] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | · reconnectionTimeout: 4"
+[10:41:40.177] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | · keepAliveInterval: 0"
+[10:41:40.177] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | · keepAliveDebounce: 10"
+[10:41:40.177] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | · traceSip: false"
+[10:41:40.178] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | connecting to WebSocket wss://vanish2.myhexin.com:51967/sip"
+[10:41:40.181] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[10:41:40.181] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.ua | UA is in STARTING status, not opening new connection"
+[10:41:40.192] [LOG] - "Tue Dec 17 2019 10:41:40 GMT+0800 (中国标准时间) | sip.transport | WebSocket wss://vanish2.myhexin.com:51967/sip connected"
+[10:41:40.243] [LOG] - "sip Registered"  "SIP/2.0 200 OK\r\nVia: SIP/2.0/WSS lf8kltcmadjv.invalid;branch=z9hG4bK4589725;rport=62984;received=172.16.147.239\r\nTo: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=e12901d75706298770b8f5b232a33100.6794\r\nFrom: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=2sc06b45ev\r\nCall-ID: i2nkhlajg1cljk6m3d1bli\r\nCSeq: 9986 REGISTER\r\nContact: <sip:figh5qgd@lf8kltcmadjv.invalid;transport=ws>;expires=600;received=\"sip:172.16.147.239:62984;transport=ws\";pub-gruu=\"sip:1001643@vanish2.myhexin.com;gr=urn:uuid:3edcc464-2481-4ea1-a950-c3e33b86bd5d\";temp-gruu=\"sip:uloc-5def9bee-2d-8cf11-87ccf473@vanish2.myhexin.com;gr\";+sip.instance=\"<urn:uuid:3edcc464-2481-4ea1-a950-c3e33b86bd5d>\";reg-id=1\r\nSupported: outbound\r\nRequire: outbound\r\nServer: Vanish 1.0.1\r\nContent-Length: 0\r\n\r\n"  {
+ "protocol": "SIP",
+ "transport": "WSS",
+ "host_type": "IPv4",
+ "host": "lf8kltcmadjv.invalid",
+ "branch": "z9hG4bK4589725",
+ "received": "172.16.147.239"
+}
+[10:41:41.227] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 724078230,
+  "sequence_time": 1576550500,
+  "time_in_millisecond": 1576550500681,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[10:42:39.991] [INFO] - "create or open sandbox dir success:Logs"
+[10:43:40.439] [INFO] - "create or open sandbox dir success:Logs"
+[10:43:45.871] [INFO] - "sending msg"  {
+ "key": "vav8weg7d2sta4ja",
+ "aesKey": "",
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "img",
+  "hasEmoji": 0,
+  "ftype": "png",
+  "originfilesize": 11886,
+  "fname": "截屏2019-11-1518.10.42.png",
+  "org": 1
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "10016435765506255",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576550625.525,
+ "extUI": {
+  "beforeRead": true,
+  "fileInfo": {},
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": "sending"
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": []
+}
+[10:43:45.905] [LOG] - "send sync sip:"  {
+ "id": "10016435765506256",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576550625562"
+ },
+ "gcode": "51148"
+}
+[10:43:45.928] [LOG] - "send sync sip:"  {
+ "id": "10016435765506257",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576550625584"
+ },
+ "gcode": "51148"
+}
+[10:43:45.969] [INFO] - "create or open sandbox dir success:20191217"
+[10:43:46.022] [LOG] - "send sync sip:"  {
+ "id": "10016435765506258",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576550625679"
+ },
+ "gcode": "51148"
+}
+[10:43:46.248] [INFO] - "create or open sandbox dir success:20191217"
+[10:43:46.260] [LOG] - "reset img msg compress size."
+[10:43:46.296] [INFO] - "create or open sandbox dir success:20191217"
+[10:43:46.302] [LOG] - "send sync sip:"  {
+ "id": "10016435765506259",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576550625959"
+ },
+ "gcode": "51148"
+}
+[10:43:46.313] [LOG] - "send sync sip:"  {
+ "id": "100164357655062510",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576550625969"
+ },
+ "gcode": "51148"
+}
+[10:43:46.646] [INFO] - "sip msg"  {
+ "body": "k9ee2cB0oJkZjFHeZ0Fmq8es88FIlwTBmEqy8mod8r/bTkPosVrWQiNdrHArU9LTHuC0N13U0MGpqmvlSl17uWjvpcZJv0ydvE1g0ANL8LX8Fb8fo3wjj6F3RXO1dBVytvw5QuGuyorFHPwYVM6jzuri2/viA5fANCdptVlaVDCrqRGmQVpdN+bWOBn+9Wnr2407p1WgpUINf9PB1a6k7ccu2up/h1uhFuJ7r2jztxA1CFXJDUzSLptAFmZCPOVfksVjzOdqRMhs9jGYO/iZweg43jKA/vQhN+/JSXMOhDEg4SY/oE3Hee/dkDRMxVCtL9jGDwKHGk3rb9gAUQzyjQY+x6m8lXf/KiS2WSiz6fjXaMnoosuvo2O6GxQzreKstT/Sw2W4YW8zY68iQtxqcA==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "10016435765506255",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "RLc1H2+IvntIp7aNSOA5pr17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": ""
+}
+[10:43:46.650] [INFO] - "sendSuccess msg"  {
+ "key": "vav8weg7d2sta4ja",
+ "aesKey": "",
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "img",
+  "hasEmoji": 0,
+  "ftype": "png",
+  "originfilesize": 10697,
+  "fname": "截屏2019-11-1518.10.42.png",
+  "org": 1,
+  "w": 457,
+  "h": 188,
+  "originfilemd5": "c76e75acf76e3ecb3d07e0d82c5af071"
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "10016435765506255",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576550625.525,
+ "extUI": {
+  "fileInfo": {
+   "sandboxInfo": {
+    "originalURL": "filesystem:http://localhost:8088/persistent/20191217/c76e75acf76e3ecb3d07e0d82c5af071-%E6%88%AA%E5%B1%8F2019-11-1518.10.42.png",
+    "encryptlURL": "filesystem:http://localhost:8088/persistent/20191217/06afa460ad51cb0dfbe4cf2b5b2bcf0b-%E6%88%AA%E5%B1%8F2019-11-1518.10.42.png",
+    "compressURL": "filesystem:http://localhost:8088/persistent/20191217/75304ca6b244fda183a588dcb580b57a-%E6%88%AA%E5%B1%8F2019-11-1518.10.42.png"
+   },
+   "chunk": 0,
+   "encryptLoadProgress": 100,
+   "upLoadProgress": 100,
+   "encryptMD5": "06afa460ad51cb0dfbe4cf2b5b2bcf0b",
+   "originalMD5": "c76e75acf76e3ecb3d07e0d82c5af071",
+   "serverFileId": "98c59192",
+   "mixContent": ""
+  },
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": true,
+  "originImgURL": "filesystem:http://localhost:8088/persistent/20191217/c76e75acf76e3ecb3d07e0d82c5af071-%E6%88%AA%E5%B1%8F2019-11-1518.10.42.png",
+  "imgURL": "filesystem:http://localhost:8088/persistent/20191217/75304ca6b244fda183a588dcb580b57a-%E6%88%AA%E5%B1%8F2019-11-1518.10.42.png"
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "newMsg": true,
+ "date": 1576550625.525,
+ "callbackObj": {
+  "result": true,
+  "addSessionId": "51148"
+ }
+}
+[10:43:46.694] [LOG] - "send sync sip:"  {
+ "id": "100164357655062611",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576550626351"
+ },
+ "gcode": "51148"
+}
+[10:44:40.001] [INFO] - "create or open sandbox dir success:Logs"
+[10:45:39.989] [INFO] - "create or open sandbox dir success:Logs"
+[10:46:35.575] [LOG] - "send sync sip:"  {
+ "id": "100164357655079514",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576550795231"
+ },
+ "gcode": "51148"
+}
+[10:46:39.997] [INFO] - "create or open sandbox dir success:Logs"
+[10:46:51.305] [INFO] - "receive sip cmd"  {
+ "body": {
+  "msgid": "10016435765506255",
+  "type": "markread"
+ },
+ "cate": "cmd",
+ "id": "100003557655081199",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "rcode": "1001643",
+ "timeval": "1576550811.89131",
+ "extUI": {}
+}
+[10:46:52.662] [INFO] - "receive sip cmd"  {
+ "body": {
+  "msgid": "10016435765506255",
+  "type": "markread"
+ },
+ "cate": "cmd",
+ "id": "10000355765508120",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "rcode": "1001643",
+ "timeval": "1576550812.457096",
+ "extUI": {}
+}
+[10:47:39.991] [INFO] - "create or open sandbox dir success:Logs"
+[10:48:39.991] [INFO] - "create or open sandbox dir success:Logs"
+[10:48:40.843] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725488507,
+  "sequence_time": 1576550920,
+  "time_in_millisecond": 1576550920626,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [
+   {
+    "body": {
+     "msgid": "10016435765506255",
+     "type": "markread"
+    },
+    "cate": "cmd",
+    "id": "10000355765508120",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "gcode": "51148",
+    "rcode": "1001643",
+    "timeval": "1576550812.457096"
+   }
+  ],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[10:49:39.989] [INFO] - "create or open sandbox dir success:Logs"
+[10:50:39.991] [INFO] - "create or open sandbox dir success:Logs"
+[10:51:37.273] [LOG] - "sip Registered"  "SIP/2.0 200 OK\r\nVia: SIP/2.0/WSS lf8kltcmadjv.invalid;branch=z9hG4bK3607669;rport=62984;received=172.16.147.239\r\nTo: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=e12901d75706298770b8f5b232a33100.1a18\r\nFrom: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=2sc06b45ev\r\nCall-ID: i2nkhlajg1cljk6m3d1bli\r\nCSeq: 9988 REGISTER\r\nContact: <sip:figh5qgd@lf8kltcmadjv.invalid;transport=ws>;expires=600;received=\"sip:172.16.147.239:62984;transport=ws\";pub-gruu=\"sip:1001643@vanish2.myhexin.com;gr=urn:uuid:3edcc464-2481-4ea1-a950-c3e33b86bd5d\";temp-gruu=\"sip:uloc-5def9bee-2d-8cf11-87ccf473@vanish2.myhexin.com;gr\";+sip.instance=\"<urn:uuid:3edcc464-2481-4ea1-a950-c3e33b86bd5d>\";reg-id=1\r\nSupported: outbound\r\nRequire: outbound\r\nServer: Vanish 1.0.1\r\nContent-Length: 0\r\n\r\n"  {
+ "protocol": "SIP",
+ "transport": "WSS",
+ "host_type": "IPv4",
+ "host": "lf8kltcmadjv.invalid",
+ "branch": "z9hG4bK3607669",
+ "received": "172.16.147.239"
+}
+[10:51:37.525] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725488507,
+  "sequence_time": 1576551097,
+  "time_in_millisecond": 1576551097298,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[10:51:39.990] [INFO] - "create or open sandbox dir success:Logs"
+[10:52:39.992] [INFO] - "create or open sandbox dir success:Logs"
+[10:53:39.991] [INFO] - "create or open sandbox dir success:Logs"
+[10:54:39.992] [INFO] - "create or open sandbox dir success:Logs"
+[10:55:39.990] [INFO] - "create or open sandbox dir success:Logs"
+[10:55:40.920] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725488507,
+  "sequence_time": 1576551340,
+  "time_in_millisecond": 1576551340668,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[10:56:39.989] [INFO] - "create or open sandbox dir success:Logs"
+[10:57:39.989] [INFO] - "create or open sandbox dir success:Logs"
+[10:58:40.289] [INFO] - "create or open sandbox dir success:Logs"
+[10:59:40.312] [INFO] - "create or open sandbox dir success:Logs"
+[11:00:40.281] [INFO] - "create or open sandbox dir success:Logs"
+[11:01:34.325] [LOG] - "sip Registered"  "SIP/2.0 200 OK\r\nVia: SIP/2.0/WSS lf8kltcmadjv.invalid;branch=z9hG4bK3220874;rport=62984;received=172.16.147.239\r\nTo: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=e12901d75706298770b8f5b232a33100.2820\r\nFrom: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=2sc06b45ev\r\nCall-ID: i2nkhlajg1cljk6m3d1bli\r\nCSeq: 9990 REGISTER\r\nContact: <sip:figh5qgd@lf8kltcmadjv.invalid;transport=ws>;expires=600;received=\"sip:172.16.147.239:62984;transport=ws\";pub-gruu=\"sip:1001643@vanish2.myhexin.com;gr=urn:uuid:3edcc464-2481-4ea1-a950-c3e33b86bd5d\";temp-gruu=\"sip:uloc-5def9bee-2d-8cf11-87ccf473@vanish2.myhexin.com;gr\";+sip.instance=\"<urn:uuid:3edcc464-2481-4ea1-a950-c3e33b86bd5d>\";reg-id=1\r\nSupported: outbound\r\nRequire: outbound\r\nServer: Vanish 1.0.1\r\nContent-Length: 0\r\n\r\n"  {
+ "protocol": "SIP",
+ "transport": "WSS",
+ "host_type": "IPv4",
+ "host": "lf8kltcmadjv.invalid",
+ "branch": "z9hG4bK3220874",
+ "received": "172.16.147.239"
+}
+[11:01:34.392] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725488507,
+  "sequence_time": 1576551694,
+  "time_in_millisecond": 1576551694113,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:01:40.278] [INFO] - "create or open sandbox dir success:Logs"
+[11:01:55.475] [LOG] - "send sync sip:"  {
+ "id": "100164357655171518",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551715206"
+ },
+ "gcode": "51148"
+}
+[11:01:55.572] [LOG] - "send sync sip:"  {
+ "id": "100164357655171519",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551715304"
+ },
+ "gcode": "51148"
+}
+[11:02:28.684] [WARN] - "[HMR] The following modules couldn't be hot updated: (Full reload needed)\nThis is usually because the modules which have changed (and their parents) do not know how to hot reload themselves. See http://webpack.github.io/docs/hot-module-replacement-with-webpack.html for more details."
+[11:02:28.685] [WARN] - "[HMR]  - ./src/vuex/actions.js"
+[11:02:28.685] [WARN] - "[HMR] Reloading page"
+[11:02:28.720] [INFO] - "Page Closed."
+[11:02:31.362] [LOG] - "language：zh-cn"
+[11:02:32.663] [LOG] - "sandbox filesystem init success"
+[11:02:32.663] [LOG] - "begin check web uuid"
+[11:02:32.671] [INFO] - "clear useless logs."  {
+ "size": 524288000,
+ "fs": {}
+}
+[11:02:32.672] [INFO] - "Logger System Init Success."
+[11:02:32.676] [LOG] - "localStorage capacity:"  "16.994140625KB"
+[11:02:32.765] [LOG] - "create sandboxFS dir success:UUID"
+[11:02:32.765] [INFO] - "create or open sandbox dir success:Logs"
+[11:02:32.766] [INFO] - "create or open sandbox dir success:Logs"
+[11:02:32.779] [LOG] - "save web-uuid end."
+[11:02:32.823] [INFO] - "init dbworker success"
+[11:02:32.855] [INFO] - "upload user device info success."
+[11:02:32.928] [LOG] - "Open DB Success! dbName is "  "vanish-1001643"
+[11:02:32.931] [ERROR] - {
+ "stack": "TypeError: Cannot read property 'length' of null\n    at readyToSendCalendarEventSysMessage (webpack-internal:///562:3232:92)\n    at Array.wrappedActionHandler (webpack-internal:///10:604:15)\n    at Store.dispatch (webpack-internal:///10:347:15)\n    at Store.boundDispatch [as dispatch] (webpack-internal:///10:272:21)\n    at Object.setWebOrPCLocalMsg (webpack-internal:///69:385:25)\n    at IDBOpenDBRequest._callee$ (webpack-internal:///538:213:29)\n    at tryCatch (webpack-internal:///782:65:40)\n    at Generator.invoke [as _invoke] (webpack-internal:///782:303:22)\n    at Generator.prototype.<computed> [as next] (webpack-internal:///782:117:21)\n    at step (webpack-internal:///11:17:30)",
+ "message": "Cannot read property 'length' of null"
+}
+[11:02:32.943] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | configuration parameters after validation:"
+[11:02:32.943] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · viaHost: \"i92iehd18t5t.invalid\""
+[11:02:32.944] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · uri: sip:1001643@vanish2.myhexin.com:51967"
+[11:02:32.944] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · custom: {}"
+[11:02:32.944] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · displayName: \"测试1-李合伟\""
+[11:02:32.945] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · password: NOT SHOWN"
+[11:02:32.945] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · registerExpires: 600"
+[11:02:32.945] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · register: true"
+[11:02:32.945] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · registrarServer: sip:vanish2.myhexin.com:51967"
+[11:02:32.946] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · transportConstructor: Transport"
+[11:02:32.946] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · transportOptions: {\"wsServers\":[\"wss://vanish2.myhexin.com:51967/sip\"]}"
+[11:02:32.946] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · userAgentString: \"JsSIP 3.0.13\""
+[11:02:32.946] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · noAnswerTimeout: 60000"
+[11:02:32.947] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · hackViaTcp: false"
+[11:02:32.947] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · hackIpInContact: false"
+[11:02:32.947] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · hackWssInTransport: false"
+[11:02:32.947] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · hackAllowUnregisteredOptionTags: false"
+[11:02:32.948] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactoryOptions: {\"constraints\":{},\"peerConnectionOptions\":{}}"
+[11:02:32.948] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · contactName: \"hp70pegm\""
+[11:02:32.948] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · contactTransport: \"ws\""
+[11:02:32.949] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · forceRport: false"
+[11:02:32.949] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · autostart: true"
+[11:02:32.949] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · autostop: true"
+[11:02:32.949] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · rel100: \"none\""
+[11:02:32.949] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · dtmfType: \"info\""
+[11:02:32.949] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · replaces: \"none\""
+[11:02:32.950] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactory: function defaultFactory(session, options) {\n        var logger = session.ua.getLogger('sip.invitecontext.sessionDescriptionHandler', session.id);\n        var SessionDescriptionHandlerObserver = __webpack_require__(31);\n        var observer = new SessionDescriptionHandlerObserver(session, options);\n        return new SessionDescriptionHandler(logger, observer, options);\n    }"
+[11:02:32.950] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · authenticationFactory: undefined"
+[11:02:32.950] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · allowLegacyNotifications: false"
+[11:02:32.951] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · allowOutOfDialogRefers: false"
+[11:02:32.951] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · instanceId: \"eaaefffd-6cee-4a14-bbc6-4fcd497796e9\""
+[11:02:32.951] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · sipjsId: \"ibr11\""
+[11:02:32.951] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · hostportParams: \"vanish2.myhexin.com:51967\""
+[11:02:32.951] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | · authorizationUser: \"1001643\""
+[11:02:32.956] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[11:02:32.957] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | configuration parameters after validation:"
+[11:02:32.958] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | · wsServers: [{\"ws_uri\":\"wss://vanish2.myhexin.com:51967/sip\",\"sip_uri\":\"<sip:vanish2.myhexin.com:51967;transport=ws;lr>\",\"weight\":0,\"isError\":false,\"scheme\":\"WSS\"}]"
+[11:02:32.958] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | · connectionTimeout: 5"
+[11:02:32.958] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | · maxReconnectionAttempts: 3"
+[11:02:32.958] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | · reconnectionTimeout: 4"
+[11:02:32.959] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | · keepAliveInterval: 0"
+[11:02:32.959] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | · keepAliveDebounce: 10"
+[11:02:32.959] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | · traceSip: false"
+[11:02:32.961] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | connecting to WebSocket wss://vanish2.myhexin.com:51967/sip"
+[11:02:32.964] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[11:02:32.964] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.ua | UA is in STARTING status, not opening new connection"
+[11:02:32.976] [LOG] - "Tue Dec 17 2019 11:02:32 GMT+0800 (中国标准时间) | sip.transport | WebSocket wss://vanish2.myhexin.com:51967/sip connected"
+[11:02:33.016] [LOG] - "sip Registered"  "SIP/2.0 200 OK\r\nVia: SIP/2.0/WSS i92iehd18t5t.invalid;branch=z9hG4bK8240577;rport=64331;received=172.16.147.239\r\nTo: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=e12901d75706298770b8f5b232a33100.c3e7\r\nFrom: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=og2vomgkn4\r\nCall-ID: 4tpa5eir3qfnmml7lu3f1n\r\nCSeq: 7035 REGISTER\r\nContact: <sip:hp70pegm@i92iehd18t5t.invalid;transport=ws>;expires=600;received=\"sip:172.16.147.239:64331;transport=ws\";pub-gruu=\"sip:1001643@vanish2.myhexin.com;gr=urn:uuid:eaaefffd-6cee-4a14-bbc6-4fcd497796e9\";temp-gruu=\"sip:uloc-5def9bee-44-d21a1-87ccf473@vanish2.myhexin.com;gr\";+sip.instance=\"<urn:uuid:eaaefffd-6cee-4a14-bbc6-4fcd497796e9>\";reg-id=1\r\nSupported: outbound\r\nRequire: outbound\r\nServer: Vanish 1.0.1\r\nContent-Length: 0\r\n\r\n"  {
+ "protocol": "SIP",
+ "transport": "WSS",
+ "host_type": "IPv4",
+ "host": "i92iehd18t5t.invalid",
+ "branch": "z9hG4bK8240577",
+ "received": "172.16.147.239"
+}
+[11:02:34.219] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725488507,
+  "sequence_time": 1576551753,
+  "time_in_millisecond": 1576551753419,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:02:39.160] [LOG] - "receive sip msg"  {
+ "body": "G6BtOS7Bu9fKIQaH/4oj3poCsaLOVFVvBbj+Pg8rJo66uxyc0G2eXKOnn578PbsSgAoSfXXyVXmaYjgiS3ZaUA==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655175837",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "sr/h5l4eBvM28d2WRnY8hb17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551758.867444"
+}
+[11:02:39.637] [LOG] - "receive sip msg"  {
+ "body": "fRhALIkQtCtQ/6PCMdGSkugiNybUHv4Dh1cZn2ZFZEZ6/Z250aSK842q+9F831eVoX99eR4hoZYCWUoewkMguw==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655175944",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "65qkRCaMLROKFzRpTcGvvL17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551759.351392"
+}
+[11:02:40.286] [LOG] - "receive sip msg"  {
+ "body": "6i4s6238uouZglECduxXrxRndjtJInX58IHa0yl7H6QNHBgyaOx2BWgwxPZBstgdMKsC1nPs5MIpewdFbNbcxw==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655175949",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "tE7V8WP0pg/tZLF31DR1QL17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551759.924610"
+}
+[11:02:40.742] [LOG] - "receive sip msg"  {
+ "body": "dXKizozZ6+y33zDQ7f3dzE77Fe3KtBTk4X5n+AdRxS/XHjkUBuJJf31b55meKYgBMxaDmXqBuvy8eZkEE1/3xw==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655176054",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "iHPsBy3oXVoNZZbfdb88j717xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551760.453706"
+}
+[11:02:42.657] [LOG] - "send sync sip:"  {
+ "id": "10016435765517625",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551762135"
+ },
+ "gcode": "51148"
+}
+[11:02:44.837] [LOG] - "action sip msg:"  {
+ "uri": "sip:peer1000035@vanish2.myhexin.com:51967",
+ "msg": "{\"body\":{\"msgid\":\"100003557655176054|100003557655175949|100003557655175944|100003557655175837\",\"type\":\"markread\"},\"cate\":\"cmd\",\"id\":\"10016435765517646\",\"scode\":\"1001643\",\"sname\":\"测试1-李合伟\",\"ua\":3,\"rcode\":\"1000035\",\"gcode\":\"51148\"}",
+ "paraObj": {
+  "sendType": "sendMarkread",
+  "msg": {
+   "body": {
+    "msgid": "100003557655176054|100003557655175949|100003557655175944|100003557655175837",
+    "type": "markread"
+   },
+   "cate": "cmd",
+   "id": "10016435765517646",
+   "scode": "1001643",
+   "sname": "测试1-李合伟",
+   "ua": 3,
+   "rcode": "1000035",
+   "gcode": "51148"
+  },
+  "unreadMsgs": [
+   {
+    "body": {
+     "burn": 0,
+     "level": 2,
+     "type": "txt",
+     "hasEmoji": 0,
+     "content": "4"
+    },
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655176054",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "timeval": "1576551760.453706",
+    "extUI": {
+     "isReceive": true
+    },
+    "gcode": "51148",
+    "gname": "李合伟,测试1-李合伟",
+    "remindcodes": [],
+    "kmd5": "",
+    "synckey": "",
+    "key": "le5bx1w66fgckht5",
+    "aesKey": "",
+    "content": "4",
+    "date": 1576551760.453706
+   },
+   {
+    "body": {
+     "burn": 0,
+     "level": 2,
+     "type": "txt",
+     "hasEmoji": 0,
+     "content": "3"
+    },
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655175949",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "timeval": "1576551759.924610",
+    "extUI": {
+     "isReceive": true
+    },
+    "gcode": "51148",
+    "gname": "李合伟,测试1-李合伟",
+    "remindcodes": [],
+    "kmd5": "",
+    "synckey": "",
+    "key": "cpd94h7n84hd23gl",
+    "aesKey": "",
+    "content": "3",
+    "date": 1576551759.92461
+   },
+   {
+    "body": {
+     "burn": 0,
+     "level": 2,
+     "type": "txt",
+     "hasEmoji": 0,
+     "content": "2"
+    },
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655175944",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "timeval": "1576551759.351392",
+    "extUI": {
+     "isReceive": true
+    },
+    "gcode": "51148",
+    "gname": "李合伟,测试1-李合伟",
+    "remindcodes": [],
+    "kmd5": "",
+    "synckey": "",
+    "key": "9mew0196038felf1",
+    "aesKey": "",
+    "content": "2",
+    "date": 1576551759.351392
+   },
+   {
+    "body": {
+     "burn": 0,
+     "level": 2,
+     "type": "txt",
+     "hasEmoji": 0,
+     "content": "1"
+    },
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655175837",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "timeval": "1576551758.867444",
+    "extUI": {
+     "isReceive": true
+    },
+    "gcode": "51148",
+    "gname": "李合伟,测试1-李合伟",
+    "remindcodes": [],
+    "kmd5": "",
+    "synckey": "",
+    "key": "tt8fa5wcyf4nyjfj",
+    "aesKey": "",
+    "content": "1",
+    "date": 1576551758.867444
+   }
+  ],
+  "sessionId": "51148"
+ }
+}
+[11:02:44.889] [INFO] - "db add messages, data is "  [
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655176054",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551760.453706",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "le5bx1w66fgckht5",
+  "aesKey": "",
+  "date": 1576551760.453706
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175949",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551759.924610",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "cpd94h7n84hd23gl",
+  "aesKey": "",
+  "date": 1576551759.92461
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175944",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551759.351392",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "9mew0196038felf1",
+  "aesKey": "",
+  "date": 1576551759.351392
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175837",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551758.867444",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "tt8fa5wcyf4nyjfj",
+  "aesKey": "",
+  "date": 1576551758.867444
+ }
+]
+[11:02:44.895] [LOG] - "addMsgByobjectName2 add message success!"  "100003557655176054"
+[11:02:44.896] [LOG] - "addMsgByobjectName2 add message success!"  "100003557655175949"
+[11:02:44.897] [LOG] - "addMsgByobjectName2 add message success!"  "100003557655175944"
+[11:02:44.898] [LOG] - "addMsgByobjectName2 add message success!"  "100003557655175837"
+[11:02:44.903] [LOG] - "addMsgByobjectName2 transaction oncomplete!"  {
+ "isTrusted": true
+}  [
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655176054",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551760.453706",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "le5bx1w66fgckht5",
+  "aesKey": "",
+  "date": 1576551760.453706
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175949",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551759.924610",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "cpd94h7n84hd23gl",
+  "aesKey": "",
+  "date": 1576551759.92461
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175944",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551759.351392",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "9mew0196038felf1",
+  "aesKey": "",
+  "date": 1576551759.351392
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175837",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551758.867444",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "tt8fa5wcyf4nyjfj",
+  "aesKey": "",
+  "date": 1576551758.867444
+ }
+]
+[11:02:46.478] [INFO] - "receive sip cmd"  {
+ "id": "100003515765517660823",
+ "cate": "cmd",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 0,
+ "body": {
+  "type": "withdraw",
+  "msgid": "100003557655176054"
+ },
+ "gcode": "51148",
+ "timeval": "1576551766.103046",
+ "extUI": {}
+}
+[11:03:03.813] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725567434,
+  "sequence_time": 1576551783,
+  "time_in_millisecond": 1576551783526,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [
+   {
+    "body": "fRhALIkQtCtQ/6PCMdGSkugiNybUHv4Dh1cZn2ZFZEZ6/Z250aSK842q+9F831eVoX99eR4hoZYCWUoewkMguw==",
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655175944",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "gcode": "51148",
+    "remindcodes": [],
+    "key": "65qkRCaMLROKFzRpTcGvvL17xj6UbUJipG7cCLNtVvg=",
+    "kmd5": "",
+    "synckey": "",
+    "timeval": "1576551759.351392"
+   },
+   {
+    "body": "6i4s6238uouZglECduxXrxRndjtJInX58IHa0yl7H6QNHBgyaOx2BWgwxPZBstgdMKsC1nPs5MIpewdFbNbcxw==",
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655175949",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "gcode": "51148",
+    "remindcodes": [],
+    "key": "tE7V8WP0pg/tZLF31DR1QL17xj6UbUJipG7cCLNtVvg=",
+    "kmd5": "",
+    "synckey": "",
+    "timeval": "1576551759.924610"
+   },
+   {
+    "id": "100003515765517660823",
+    "cate": "cmd",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 0,
+    "body": {
+     "type": "withdraw",
+     "msgid": "100003557655176054"
+    },
+    "gcode": "51148",
+    "timeval": "1576551766.103046"
+   }
+  ],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:03:03.815] [INFO] - "receive sip msg"  {
+ "body": "fRhALIkQtCtQ/6PCMdGSkugiNybUHv4Dh1cZn2ZFZEZ6/Z250aSK842q+9F831eVoX99eR4hoZYCWUoewkMguw==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655175944",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "65qkRCaMLROKFzRpTcGvvL17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551759.351392",
+ "extUI": {},
+ "offline": true
+}
+[11:03:03.820] [INFO] - "receive sip msg"  {
+ "body": "6i4s6238uouZglECduxXrxRndjtJInX58IHa0yl7H6QNHBgyaOx2BWgwxPZBstgdMKsC1nPs5MIpewdFbNbcxw==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655175949",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "tE7V8WP0pg/tZLF31DR1QL17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551759.924610",
+ "extUI": {},
+ "isMaxTime": true,
+ "offline": true
+}
+[11:03:03.822] [INFO] - "db add messages, data is "  [
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175944",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "gcode": "51148",
+  "remindcodes": [],
+  "key": "9mew0196038felf1",
+  "kmd5": "",
+  "synckey": "",
+  "timeval": "1576551759.351392",
+  "extUI": {
+   "isReceive": true
+  },
+  "offline": true,
+  "gname": "李合伟,测试1-李合伟",
+  "noticeAvatar": "",
+  "date": 1576551759.351392
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175949",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "gcode": "51148",
+  "remindcodes": [],
+  "key": "cpd94h7n84hd23gl",
+  "kmd5": "",
+  "synckey": "",
+  "timeval": "1576551759.924610",
+  "extUI": {
+   "isReceive": true
+  },
+  "isMaxTime": true,
+  "offline": true,
+  "gname": "李合伟,测试1-李合伟",
+  "noticeAvatar": "",
+  "date": 1576551759.92461
+ }
+]
+[11:03:03.823] [LOG] - "Message has existed!"  {}  "100003557655175944"
+[11:03:03.824] [ERROR] - "addMsgByobjectName2 transaction error!"  {
+ "isTrusted": true
+}  [
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175944",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "gcode": "51148",
+  "remindcodes": [],
+  "key": "9mew0196038felf1",
+  "kmd5": "",
+  "synckey": "",
+  "timeval": "1576551759.351392",
+  "extUI": {
+   "isReceive": true
+  },
+  "offline": true,
+  "gname": "李合伟,测试1-李合伟",
+  "noticeAvatar": "",
+  "date": 1576551759.351392
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175949",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "gcode": "51148",
+  "remindcodes": [],
+  "key": "cpd94h7n84hd23gl",
+  "kmd5": "",
+  "synckey": "",
+  "timeval": "1576551759.924610",
+  "extUI": {
+   "isReceive": true
+  },
+  "isMaxTime": true,
+  "offline": true,
+  "gname": "李合伟,测试1-李合伟",
+  "noticeAvatar": "",
+  "date": 1576551759.92461
+ }
+]
+[11:03:03.825] [LOG] - "Message has existed!"  {}  "100003557655175949"
+[11:03:03.826] [ERROR] - "addMsgByobjectName2 transaction error!"  {
+ "isTrusted": true
+}  [
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175944",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "gcode": "51148",
+  "remindcodes": [],
+  "key": "9mew0196038felf1",
+  "kmd5": "",
+  "synckey": "",
+  "timeval": "1576551759.351392",
+  "extUI": {
+   "isReceive": true
+  },
+  "offline": true,
+  "gname": "李合伟,测试1-李合伟",
+  "noticeAvatar": "",
+  "date": 1576551759.351392
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175949",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "gcode": "51148",
+  "remindcodes": [],
+  "key": "cpd94h7n84hd23gl",
+  "kmd5": "",
+  "synckey": "",
+  "timeval": "1576551759.924610",
+  "extUI": {
+   "isReceive": true
+  },
+  "isMaxTime": true,
+  "offline": true,
+  "gname": "李合伟,测试1-李合伟",
+  "noticeAvatar": "",
+  "date": 1576551759.92461
+ }
+]
+[11:03:03.827] [LOG] - "addMsgByobjectName2 transaction oncomplete!"  {
+ "isTrusted": true
+}  [
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175944",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "gcode": "51148",
+  "remindcodes": [],
+  "key": "9mew0196038felf1",
+  "kmd5": "",
+  "synckey": "",
+  "timeval": "1576551759.351392",
+  "extUI": {
+   "isReceive": true
+  },
+  "offline": true,
+  "gname": "李合伟,测试1-李合伟",
+  "noticeAvatar": "",
+  "date": 1576551759.351392
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655175949",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "gcode": "51148",
+  "remindcodes": [],
+  "key": "cpd94h7n84hd23gl",
+  "kmd5": "",
+  "synckey": "",
+  "timeval": "1576551759.924610",
+  "extUI": {
+   "isReceive": true
+  },
+  "isMaxTime": true,
+  "offline": true,
+  "gname": "李合伟,测试1-李合伟",
+  "noticeAvatar": "",
+  "date": 1576551759.92461
+ }
+]
+[11:03:32.678] [INFO] - "create or open sandbox dir success:Logs"
+[11:03:33.636] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725567434,
+  "sequence_time": 1576551813,
+  "time_in_millisecond": 1576551813347,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:04:03.637] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725567434,
+  "sequence_time": 1576551843,
+  "time_in_millisecond": 1576551843346,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:04:32.677] [INFO] - "create or open sandbox dir success:Logs"
+[11:04:33.667] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725567434,
+  "sequence_time": 1576551873,
+  "time_in_millisecond": 1576551873371,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:04:48.064] [WARN] - "[HMR] The following modules couldn't be hot updated: (Full reload needed)\nThis is usually because the modules which have changed (and their parents) do not know how to hot reload themselves. See http://webpack.github.io/docs/hot-module-replacement-with-webpack.html for more details."
+[11:04:48.065] [WARN] - "[HMR]  - ./src/utils/index.js"
+[11:04:48.066] [WARN] - "[HMR] Reloading page"
+[11:04:48.094] [INFO] - "Page Closed."
+[11:04:50.822] [LOG] - "language：zh-cn"
+[11:04:52.207] [LOG] - "sandbox filesystem init success"
+[11:04:52.207] [LOG] - "begin check web uuid"
+[11:04:52.209] [INFO] - "clear useless logs."  {
+ "size": 524288000,
+ "fs": {}
+}
+[11:04:52.210] [INFO] - "Logger System Init Success."
+[11:04:52.211] [LOG] - "localStorage capacity:"  "17.048828125KB"
+[11:04:52.288] [LOG] - "create sandboxFS dir success:UUID"
+[11:04:52.290] [INFO] - "create or open sandbox dir success:Logs"
+[11:04:52.291] [INFO] - "create or open sandbox dir success:Logs"
+[11:04:52.311] [LOG] - "save web-uuid end."
+[11:04:52.342] [INFO] - "init dbworker success"
+[11:04:52.375] [INFO] - "upload user device info success."
+[11:04:52.394] [LOG] - "Open DB Success! dbName is "  "vanish-1001643"
+[11:04:52.398] [ERROR] - {
+ "stack": "TypeError: Cannot read property 'length' of null\n    at readyToSendCalendarEventSysMessage (webpack-internal:///562:3232:92)\n    at Array.wrappedActionHandler (webpack-internal:///10:604:15)\n    at Store.dispatch (webpack-internal:///10:347:15)\n    at Store.boundDispatch [as dispatch] (webpack-internal:///10:272:21)\n    at Object.setWebOrPCLocalMsg (webpack-internal:///69:385:25)\n    at IDBOpenDBRequest._callee$ (webpack-internal:///538:213:29)\n    at tryCatch (webpack-internal:///782:65:40)\n    at Generator.invoke [as _invoke] (webpack-internal:///782:303:22)\n    at Generator.prototype.<computed> [as next] (webpack-internal:///782:117:21)\n    at step (webpack-internal:///11:17:30)",
+ "message": "Cannot read property 'length' of null"
+}
+[11:04:52.411] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | configuration parameters after validation:"
+[11:04:52.411] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · viaHost: \"kqpukp9q8vbu.invalid\""
+[11:04:52.412] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · uri: sip:1001643@vanish2.myhexin.com:51967"
+[11:04:52.412] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · custom: {}"
+[11:04:52.412] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · displayName: \"测试1-李合伟\""
+[11:04:52.412] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · password: NOT SHOWN"
+[11:04:52.413] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · registerExpires: 600"
+[11:04:52.413] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · register: true"
+[11:04:52.413] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · registrarServer: sip:vanish2.myhexin.com:51967"
+[11:04:52.414] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · transportConstructor: Transport"
+[11:04:52.414] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · transportOptions: {\"wsServers\":[\"wss://vanish2.myhexin.com:51967/sip\"]}"
+[11:04:52.414] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · userAgentString: \"JsSIP 3.0.13\""
+[11:04:52.414] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · noAnswerTimeout: 60000"
+[11:04:52.415] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · hackViaTcp: false"
+[11:04:52.415] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · hackIpInContact: false"
+[11:04:52.415] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · hackWssInTransport: false"
+[11:04:52.415] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · hackAllowUnregisteredOptionTags: false"
+[11:04:52.415] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactoryOptions: {\"constraints\":{},\"peerConnectionOptions\":{}}"
+[11:04:52.415] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · contactName: \"3hj4k3ac\""
+[11:04:52.416] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · contactTransport: \"ws\""
+[11:04:52.416] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · forceRport: false"
+[11:04:52.416] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · autostart: true"
+[11:04:52.416] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · autostop: true"
+[11:04:52.416] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · rel100: \"none\""
+[11:04:52.416] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · dtmfType: \"info\""
+[11:04:52.417] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · replaces: \"none\""
+[11:04:52.417] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · sessionDescriptionHandlerFactory: function defaultFactory(session, options) {\n        var logger = session.ua.getLogger('sip.invitecontext.sessionDescriptionHandler', session.id);\n        var SessionDescriptionHandlerObserver = __webpack_require__(31);\n        var observer = new SessionDescriptionHandlerObserver(session, options);\n        return new SessionDescriptionHandler(logger, observer, options);\n    }"
+[11:04:52.417] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · authenticationFactory: undefined"
+[11:04:52.417] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · allowLegacyNotifications: false"
+[11:04:52.417] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · allowOutOfDialogRefers: false"
+[11:04:52.418] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · instanceId: \"6590c568-39bb-413b-ae9e-49284e9f162f\""
+[11:04:52.418] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · sipjsId: \"cecab\""
+[11:04:52.418] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · hostportParams: \"vanish2.myhexin.com:51967\""
+[11:04:52.418] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | · authorizationUser: \"1001643\""
+[11:04:52.423] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[11:04:52.425] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | configuration parameters after validation:"
+[11:04:52.425] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | · wsServers: [{\"ws_uri\":\"wss://vanish2.myhexin.com:51967/sip\",\"sip_uri\":\"<sip:vanish2.myhexin.com:51967;transport=ws;lr>\",\"weight\":0,\"isError\":false,\"scheme\":\"WSS\"}]"
+[11:04:52.425] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | · connectionTimeout: 5"
+[11:04:52.426] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | · maxReconnectionAttempts: 3"
+[11:04:52.426] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | · reconnectionTimeout: 4"
+[11:04:52.426] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | · keepAliveInterval: 0"
+[11:04:52.426] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | · keepAliveDebounce: 10"
+[11:04:52.427] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | · traceSip: false"
+[11:04:52.428] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | connecting to WebSocket wss://vanish2.myhexin.com:51967/sip"
+[11:04:52.431] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | user requested startup..."
+[11:04:52.431] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.ua | UA is in STARTING status, not opening new connection"
+[11:04:52.448] [LOG] - "Tue Dec 17 2019 11:04:52 GMT+0800 (中国标准时间) | sip.transport | WebSocket wss://vanish2.myhexin.com:51967/sip connected"
+[11:04:52.490] [LOG] - "sip Registered"  "SIP/2.0 200 OK\r\nVia: SIP/2.0/WSS kqpukp9q8vbu.invalid;branch=z9hG4bK3491942;rport=64513;received=172.16.147.239\r\nTo: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=e12901d75706298770b8f5b232a33100.6925\r\nFrom: \"测试1-李合伟\" <sip:1001643@vanish2.myhexin.com:51967>;tag=ie8jghliju\r\nCall-ID: fn2j7vkru0np2ijst991pa\r\nCSeq: 153 REGISTER\r\nContact: <sip:3hj4k3ac@kqpukp9q8vbu.invalid;transport=ws>;expires=600;received=\"sip:172.16.147.239:64513;transport=ws\";pub-gruu=\"sip:1001643@vanish2.myhexin.com;gr=urn:uuid:6590c568-39bb-413b-ae9e-49284e9f162f\";temp-gruu=\"sip:uloc-5def9bee-48-14191-87ccf473@vanish2.myhexin.com;gr\";+sip.instance=\"<urn:uuid:6590c568-39bb-413b-ae9e-49284e9f162f>\";reg-id=1\r\nSupported: outbound\r\nRequire: outbound\r\nServer: Vanish 1.0.1\r\nContent-Length: 0\r\n\r\n"  {
+ "protocol": "SIP",
+ "transport": "WSS",
+ "host_type": "IPv4",
+ "host": "kqpukp9q8vbu.invalid",
+ "branch": "z9hG4bK3491942",
+ "received": "172.16.147.239"
+}
+[11:04:53.467] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725567434,
+  "sequence_time": 1576551892,
+  "time_in_millisecond": 1576551893015,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:05:11.136] [LOG] - "receive sip msg"  {
+ "body": "8Dpv6VCOCJZtHsqZmeL3jBy9+gDmWT8h3Y+pz65suuBIsg79b15h1SNE1LEWE3j7SBt121B8YiUxWDGf9XsPTg==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655191068",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "QN4ZKx6TGIpqgEXmaB+0Sb17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551910.824464"
+}
+[11:05:13.592] [INFO] - "receive sip cmd"  {
+ "id": "100003515765519132813",
+ "cate": "cmd",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 0,
+ "body": {
+  "type": "withdraw",
+  "msgid": "100003557655191068"
+ },
+ "gcode": "51148",
+ "timeval": "1576551913.289281",
+ "extUI": {}
+}
+[11:05:22.928] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725579380,
+  "sequence_time": 1576551922,
+  "time_in_millisecond": 1576551922628,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [
+   {
+    "id": "100003515765519132813",
+    "cate": "cmd",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 0,
+    "body": {
+     "type": "withdraw",
+     "msgid": "100003557655191068"
+    },
+    "gcode": "51148",
+    "timeval": "1576551913.289281"
+   }
+  ],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:05:52.215] [INFO] - "create or open sandbox dir success:Logs"
+[11:05:52.904] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725579380,
+  "sequence_time": 1576551952,
+  "time_in_millisecond": 1576551952602,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:06:22.966] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725579380,
+  "sequence_time": 1576551982,
+  "time_in_millisecond": 1576551982661,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:06:23.784] [LOG] - "send sync sip:"  {
+ "id": "10016435765519832",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551983490"
+ },
+ "gcode": "51148"
+}
+[11:06:28.312] [LOG] - "receive sip msg"  {
+ "body": "7B4+ct8MqDjoeIzbXKJnL031m0J9MVbHbwRwV9IQD9gt9mAFYjxLw7pMtGiqatTrdXGQ6WM8mot/ywWfPNf1qw==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655198778",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "g64qZaDb33uMm0WK2K/NW717xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551987.971076"
+}
+[11:06:28.360] [LOG] - "send sync sip:"  {
+ "id": "10016435765519885",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551988065"
+ },
+ "gcode": "51148"
+}
+[11:06:28.364] [LOG] - "send sync sip:"  {
+ "id": "10016435765519886",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551988069"
+ },
+ "gcode": "51148"
+}
+[11:06:29.448] [LOG] - "receive sip msg"  {
+ "body": "QrkkkdUVgQE403/1mzHfUhPvN2haYdzwAqMYLD6vyQBRCK5A40Djd3A5W+HDiTFhnICWh2piPJUYLKxxDBD0Eu6P1f1NJ2yOy1L1Az91fO8=",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655198983",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "dCaXhgtrjHBY+qVohX+qtr17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551989.130030"
+}
+[11:06:29.485] [LOG] - "send sync sip:"  {
+ "id": "10016435765519898",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551989189"
+ },
+ "gcode": "51148"
+}
+[11:06:29.488] [LOG] - "send sync sip:"  {
+ "id": "10016435765519899",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551989193"
+ },
+ "gcode": "51148"
+}
+[11:06:32.124] [INFO] - "receive sip cmd"  {
+ "id": "100003515765519918088",
+ "cate": "cmd",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 0,
+ "body": {
+  "type": "withdraw",
+  "msgid": "100003557655198983"
+ },
+ "gcode": "51148",
+ "timeval": "1576551991.812075",
+ "extUI": {}
+}
+[11:06:38.690] [LOG] - "send sync sip:"  {
+ "id": "100164357655199810",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551998395"
+ },
+ "gcode": "51148"
+}
+[11:06:39.601] [LOG] - "send sync sip:"  {
+ "id": "100164357655199911",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551999305"
+ },
+ "gcode": "51148"
+}
+[11:06:39.685] [LOG] - "send sync sip:"  {
+ "id": "100164357655199912",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576551999391"
+ },
+ "gcode": "51148"
+}
+[11:06:40.336] [LOG] - "action sip msg:"  {
+ "uri": "sip:peer1000035@vanish2.myhexin.com:51967",
+ "msg": "{\"body\":{\"msgid\":\"100003557655198983|100003557655198778\",\"type\":\"markread\"},\"cate\":\"cmd\",\"id\":\"100164357655200013\",\"scode\":\"1001643\",\"sname\":\"测试1-李合伟\",\"ua\":3,\"rcode\":\"1000035\",\"gcode\":\"51148\"}",
+ "paraObj": {
+  "sendType": "sendMarkread",
+  "msg": {
+   "body": {
+    "msgid": "100003557655198983|100003557655198778",
+    "type": "markread"
+   },
+   "cate": "cmd",
+   "id": "100164357655200013",
+   "scode": "1001643",
+   "sname": "测试1-李合伟",
+   "ua": 3,
+   "rcode": "1000035",
+   "gcode": "51148"
+  },
+  "unreadMsgs": [
+   {
+    "body": {
+     "burn": 0,
+     "level": 2,
+     "type": "txt",
+     "hasEmoji": 0,
+     "content": "23452"
+    },
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655198983",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "timeval": "1576551989.130030",
+    "extUI": {
+     "isReceive": true
+    },
+    "gcode": "51148",
+    "gname": "李合伟,测试1-李合伟",
+    "remindcodes": [],
+    "kmd5": "",
+    "synckey": "",
+    "key": "g4jp9tww8hkwl4t8",
+    "aesKey": "",
+    "content": "23452",
+    "date": 1576551989.13003
+   },
+   {
+    "body": {
+     "burn": 0,
+     "level": 2,
+     "type": "txt",
+     "hasEmoji": 0,
+     "content": "345"
+    },
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655198778",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "timeval": "1576551987.971076",
+    "extUI": {
+     "isReceive": true
+    },
+    "gcode": "51148",
+    "gname": "李合伟,测试1-李合伟",
+    "remindcodes": [],
+    "kmd5": "",
+    "synckey": "",
+    "key": "ypqo3i1aecbr0niq",
+    "aesKey": "",
+    "content": "345",
+    "date": 1576551987.971076
+   }
+  ],
+  "sessionId": "51148"
+ }
+}
+[11:06:40.365] [INFO] - "db add messages, data is "  [
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0,
+   "content": "23452"
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655198983",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551989.130030",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "g4jp9tww8hkwl4t8",
+  "aesKey": "",
+  "content": "23452",
+  "date": 1576551989.13003
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0,
+   "content": "345"
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655198778",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551987.971076",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "ypqo3i1aecbr0niq",
+  "aesKey": "",
+  "content": "345",
+  "date": 1576551987.971076
+ }
+]
+[11:06:40.370] [LOG] - "addMsgByobjectName2 add message success!"  "100003557655198983"
+[11:06:40.372] [LOG] - "addMsgByobjectName2 add message success!"  "100003557655198778"
+[11:06:40.383] [LOG] - "addMsgByobjectName2 transaction oncomplete!"  {
+ "isTrusted": true
+}  [
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0,
+   "content": "23452"
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655198983",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551989.130030",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "g4jp9tww8hkwl4t8",
+  "aesKey": "",
+  "content": "23452",
+  "date": 1576551989.13003
+ },
+ {
+  "body": {
+   "burn": 0,
+   "level": 2,
+   "type": "txt",
+   "hasEmoji": 0,
+   "content": "345"
+  },
+  "cate": "msg",
+  "enc": 1,
+  "id": "100003557655198778",
+  "scode": "1000035",
+  "sname": "李合伟",
+  "ua": 3,
+  "timeval": "1576551987.971076",
+  "extUI": {
+   "isReceive": true,
+   "readStatus": true
+  },
+  "gcode": "51148",
+  "gname": "李合伟,测试1-李合伟",
+  "remindcodes": [],
+  "kmd5": "",
+  "synckey": "",
+  "key": "ypqo3i1aecbr0niq",
+  "aesKey": "",
+  "content": "345",
+  "date": 1576551987.971076
+ }
+]
+[11:06:52.215] [INFO] - "create or open sandbox dir success:Logs"
+[11:06:53.146] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725585530,
+  "sequence_time": 1576552012,
+  "time_in_millisecond": 1576552012837,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [
+   {
+    "body": "7B4+ct8MqDjoeIzbXKJnL031m0J9MVbHbwRwV9IQD9gt9mAFYjxLw7pMtGiqatTrdXGQ6WM8mot/ywWfPNf1qw==",
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655198778",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "gcode": "51148",
+    "remindcodes": [],
+    "key": "g64qZaDb33uMm0WK2K/NW717xj6UbUJipG7cCLNtVvg=",
+    "kmd5": "",
+    "synckey": "",
+    "timeval": "1576551987.971076"
+   }
+  ],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:06:53.148] [INFO] - "receive sip msg"  {
+ "body": "7B4+ct8MqDjoeIzbXKJnL031m0J9MVbHbwRwV9IQD9gt9mAFYjxLw7pMtGiqatTrdXGQ6WM8mot/ywWfPNf1qw==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100003557655198778",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "g64qZaDb33uMm0WK2K/NW717xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": "",
+ "timeval": "1576551987.971076",
+ "extUI": {},
+ "isMaxTime": true,
+ "offline": true
+}
+[11:07:22.949] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725585530,
+  "sequence_time": 1576552042,
+  "time_in_millisecond": 1576552042638,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:07:52.215] [INFO] - "create or open sandbox dir success:Logs"
+[11:07:53.095] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725585530,
+  "sequence_time": 1576552072,
+  "time_in_millisecond": 1576552072773,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:08:23.109] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725585530,
+  "sequence_time": 1576552102,
+  "time_in_millisecond": 1576552102791,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:08:52.217] [INFO] - "create or open sandbox dir success:Logs"
+[11:08:52.907] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725585530,
+  "sequence_time": 1576552132,
+  "time_in_millisecond": 1576552132585,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:09:22.955] [LOG] - "action sip msg:"  {
+ "uri": "sip:peer1000035@vanish2.myhexin.com:51967",
+ "msg": "{\"body\":{\"msgid\":\"100003557655198778\",\"type\":\"markread\"},\"cate\":\"cmd\",\"id\":\"100164357655216214\",\"scode\":\"1001643\",\"sname\":\"测试1-李合伟\",\"ua\":3,\"rcode\":\"1000035\",\"gcode\":\"51148\"}",
+ "paraObj": {
+  "sendType": "sendMarkread",
+  "msg": {
+   "body": {
+    "msgid": "100003557655198778",
+    "type": "markread"
+   },
+   "cate": "cmd",
+   "id": "100164357655216214",
+   "scode": "1001643",
+   "sname": "测试1-李合伟",
+   "ua": 3,
+   "rcode": "1000035",
+   "gcode": "51148"
+  },
+  "unreadMsgs": [
+   {
+    "body": {
+     "burn": 0,
+     "level": 2,
+     "type": "txt",
+     "hasEmoji": 0,
+     "content": "345"
+    },
+    "cate": "msg",
+    "enc": 1,
+    "id": "100003557655198778",
+    "scode": "1000035",
+    "sname": "李合伟",
+    "ua": 3,
+    "timeval": "1576551987.971076",
+    "extUI": {
+     "isReceive": true
+    },
+    "gcode": "51148",
+    "gname": "李合伟,测试1-李合伟",
+    "remindcodes": [],
+    "kmd5": "",
+    "synckey": "",
+    "key": "ypqo3i1aecbr0niq",
+    "aesKey": "",
+    "content": "345",
+    "date": 1576551987.971076
+   }
+  ],
+  "sessionId": "51148"
+ }
+}
+[11:09:23.038] [INFO] - "offline msg"  {
+ "status": "0",
+ "msg": "成功",
+ "payload": {
+  "sequence_key": 725585530,
+  "sequence_time": 1576552162,
+  "time_in_millisecond": 1576552162718,
+  "user": {
+   "code": 1001643,
+   "phone": "",
+   "email": "986390329@qq.com",
+   "avatar": "https://vanish1.myhexin.com/upload/avatar/20190901/1567760570865603.jpg",
+   "encrypt_type": 1,
+   "account_type": 0,
+   "account_id": null,
+   "phone_binding": 0,
+   "username": "测试1-李合伟",
+   "last_login": 1576549565,
+   "sip_ip": "vanish2.myhexin.com",
+   "added_type": 2,
+   "user_hash": "7j50n069i0e9wum9",
+   "country_code": null,
+   "pc_version": "1.3.0",
+   "is_robot": 0,
+   "describe": "[]",
+   "greeting": "[]",
+   "reply_type": 0,
+   "contact_version": 1575701964,
+   "sex": 2,
+   "room_code": "",
+   "friendship": 1,
+   "online_status": 6,
+   "multi_dnd": "1",
+   "personal_encrypt_type": 1,
+   "authority": 3,
+   "permission": 1,
+   "permission_tag": "c613869d49eacea77286fdc9de8bf5b4",
+   "binding_status": 1,
+   "peer_config": "6",
+   "is_vip": 0
+  },
+  "data": [],
+  "version": "0",
+  "force_update": 1
+ }
+}
+[11:09:23.528] [INFO] - "sending msg"  {
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "txt",
+  "hasEmoji": 0,
+  "content": "2341234"
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "100164357655216315",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576552163.217,
+ "extUI": {
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": "sending"
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "key": "",
+ "aesKey": ""
+}
+[11:09:23.534] [INFO] - "sip msg"  {
+ "body": "YQzOSXXk7P5M3uqxfJO5mQDsZblKc55IPZadTDrhKx1veoaWtZSeStAqgD7wR/06gpgBIQi4mhxqXUWvSatqr/0d2NYP7ma0vz8yXmr51Sg=",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100164357655216315",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "/d8bTMqbePt9F/OvTvxMUr17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": ""
+}
+[11:09:23.537] [LOG] - "send sync sip:"  {
+ "id": "100164357655216316",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552163226"
+ },
+ "gcode": "51148"
+}
+[11:09:23.551] [INFO] - "sendSuccess msg"  {
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "txt",
+  "hasEmoji": 0,
+  "content": "2341234"
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "100164357655216315",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576552163.217,
+ "extUI": {
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": true
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "key": "",
+ "aesKey": "",
+ "newMsg": true,
+ "content": "2341234",
+ "date": 1576552163.217
+}
+[11:09:23.564] [LOG] - "send sync sip:"  {
+ "id": "100164357655216317",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552163254"
+ },
+ "gcode": "51148"
+}
+[11:09:23.676] [LOG] - "send sync sip:"  {
+ "id": "100164357655216318",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552163365"
+ },
+ "gcode": "51148"
+}
+[11:09:24.293] [INFO] - "sending msg"  {
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "txt",
+  "hasEmoji": 0,
+  "content": "2345"
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "100164357655216319",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576552163.982,
+ "extUI": {
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": "sending"
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "key": "",
+ "aesKey": ""
+}
+[11:09:24.298] [INFO] - "sip msg"  {
+ "body": "mrljxYs9htiBQpQik4155AgdoN+hdbb1otTM22kTZlVwIFu9s2WKjZF43MbuLsrv0CBViONMQxmMz6rzs1eTEg==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100164357655216319",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "kiW4boVs5I5TcuftWY6i6b17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": ""
+}
+[11:09:24.301] [LOG] - "send sync sip:"  {
+ "id": "100164357655216320",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552163990"
+ },
+ "gcode": "51148"
+}
+[11:09:24.327] [INFO] - "sendSuccess msg"  {
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "txt",
+  "hasEmoji": 0,
+  "content": "2345"
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "100164357655216319",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576552163.982,
+ "extUI": {
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": true
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "key": "",
+ "aesKey": "",
+ "newMsg": true,
+ "content": "2345",
+ "date": 1576552163.982
+}
+[11:09:24.437] [LOG] - "send sync sip:"  {
+ "id": "100164357655216421",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552164126"
+ },
+ "gcode": "51148"
+}
+[11:09:24.496] [LOG] - "send sync sip:"  {
+ "id": "100164357655216422",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552164186"
+ },
+ "gcode": "51148"
+}
+[11:09:24.981] [INFO] - "sending msg"  {
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "txt",
+  "hasEmoji": 0,
+  "content": "2345"
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "100164357655216423",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576552164.67,
+ "extUI": {
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": "sending"
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "key": "",
+ "aesKey": ""
+}
+[11:09:24.986] [INFO] - "sip msg"  {
+ "body": "7J1SPiBcrDI2yxtvUpno/+65zSo8aWc6Q0Fo34yXKPw4nrdJ7stxt6dr5453qpM7FkHNcBcZIjfDwDmyjD0rGw==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100164357655216423",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "8CB24BNd8iDGXcH9uMKnO717xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": ""
+}
+[11:09:24.998] [LOG] - "send sync sip:"  {
+ "id": "100164357655216424",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552164687"
+ },
+ "gcode": "51148"
+}
+[11:09:25.013] [INFO] - "sendSuccess msg"  {
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "txt",
+  "hasEmoji": 0,
+  "content": "2345"
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "100164357655216423",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576552164.67,
+ "extUI": {
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": true
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "key": "",
+ "aesKey": "",
+ "newMsg": true,
+ "content": "2345",
+ "date": 1576552164.67
+}
+[11:09:25.094] [LOG] - "send sync sip:"  {
+ "id": "100164357655216425",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552164784"
+ },
+ "gcode": "51148"
+}
+[11:09:25.211] [LOG] - "send sync sip:"  {
+ "id": "100164357655216426",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552164899"
+ },
+ "gcode": "51148"
+}
+[11:09:25.701] [INFO] - "sending msg"  {
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "txt",
+  "hasEmoji": 0,
+  "content": "132"
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "100164357655216527",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576552165.39,
+ "extUI": {
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": "sending"
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "key": "",
+ "aesKey": ""
+}
+[11:09:25.706] [INFO] - "sip msg"  {
+ "body": "j6uzckTNicmjWLX2CfTUeI+mK8i6FF8f8aBNsijseKckuSgx5DaEYvZ0i9MSkWjooBUHq5cAa8aMl9WFPGm/kw==",
+ "cate": "msg",
+ "enc": 1,
+ "id": "100164357655216527",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "remindcodes": [],
+ "key": "QDBDJkZJDJh6n1a/E6TMBr17xj6UbUJipG7cCLNtVvg=",
+ "kmd5": "",
+ "synckey": ""
+}
+[11:09:25.709] [LOG] - "send sync sip:"  {
+ "id": "100164357655216528",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552165398"
+ },
+ "gcode": "51148"
+}
+[11:09:25.732] [INFO] - "sendSuccess msg"  {
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "txt",
+  "hasEmoji": 0,
+  "content": "132"
+ },
+ "cate": "msg",
+ "enc": 0,
+ "id": "100164357655216527",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576552165.39,
+ "extUI": {
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": true
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "key": "",
+ "aesKey": "",
+ "newMsg": true,
+ "content": "132",
+ "date": 1576552165.39
+}
+[11:09:25.767] [LOG] - "send sync sip:"  {
+ "id": "100164357655216529",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552165456"
+ },
+ "gcode": "51148"
+}
+[11:09:25.906] [LOG] - "send sync sip:"  {
+ "id": "100164357655216530",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552165596"
+ },
+ "gcode": "51148"
+}
+[11:09:29.735] [INFO] - {
+ "body": {
+  "burn": 0,
+  "level": 2,
+  "type": "txt",
+  "hasEmoji": 0,
+  "content": "132"
+ },
+ "cate": "msg",
+ "enc": 1,
+ "id": "100164357655216527",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 3,
+ "timeval": 1576552165.39,
+ "extUI": {
+  "self": true,
+  "totalCount": 2,
+  "sendStatus": true
+ },
+ "gcode": "51148",
+ "gname": "李合伟,测试1-李合伟",
+ "remindcodes": [],
+ "key": "",
+ "aesKey": "ctf3a7ys1k4bnc8c",
+ "newMsg": true,
+ "content": "132",
+ "date": 1576552165.39
+}  "item"
+[11:09:30.739] [INFO] - "receive sip cmd"  {
+ "id": "100164315765521703636",
+ "cate": "cmd",
+ "scode": "1001643",
+ "sname": "测试1-李合伟",
+ "ua": 0,
+ "body": {
+  "type": "withdraw",
+  "msgid": "100164357655216527"
+ },
+ "gcode": "51148",
+ "timeval": "1576552170.391169",
+ "extUI": {}
+}
+[11:09:30.844] [LOG] - "send sync sip:"  {
+ "id": "100164357655217032",
+ "cate": "cmd",
+ "scode": "1001643",
+ "rcode": "1001643",
+ "ua": 3,
+ "body": {
+  "type": "syncread",
+  "origintimeval": "1576552170532"
+ },
+ "gcode": "51148"
+}
+[11:09:34.391] [INFO] - "receive sip cmd"  {
+ "body": {
+  "msgid": "100164357655216527|100164357655216423|100164357655216319|100164357655216315",
+  "type": "markread"
+ },
+ "cate": "cmd",
+ "id": "100003557655217497",
+ "scode": "1000035",
+ "sname": "李合伟",
+ "ua": 3,
+ "gcode": "51148",
+ "rcode": "1001643",
+ "timeval": "1576552174.70091",
+ "extUI": {}
+}
