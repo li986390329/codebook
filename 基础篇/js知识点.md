@@ -396,3 +396,11 @@
     }
   }
 ```
+
+### call和apply只是传入参数不同, bind需要手动去调用
+
+### new的过程
+  1. 创建一个新的空对象obj
+  2. 将新创建的空对象的隐式原型指向其构造函数的显示原型 obj.__proto__ = myFunction.prototype;
+  3. 使用call改变this的指向 var result = myFunction.call(obj, "Li", "cherry")
+  4. 如果无返回值或者返回一个非对象值，则将obj返回作为新对象，如果返回值是一个新对象的话，那么直接返回该对象

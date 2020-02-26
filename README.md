@@ -19,6 +19,8 @@ C -> controler msgManager UserInfoManager
 
 M -> model UserInfo GroupInfo
 
+
+
 通用的工具模块封装
 数据持久化:
   DB-> 封装为两个模块 数据库表设计啊
@@ -50,4 +52,6 @@ Session模块的封装
 首屏优化
   减少Html请求，减少包体积，缩小图片体积，延迟加载JS文件，preDNS
 
-#### [！！！this 永远指向最后一个调用它的对象](https://juejin.im/post/59bfe84351882531b730bac2)
+#### [！！！this 永远指向最后一个调用它的对象，匿名函数的 this 永远指向 window](https://juejin.im/post/59bfe84351882531b730bac2)
+
+#### [electron 性能优化](https://juejin.im/post/5e0010866fb9a015fd69c645)
