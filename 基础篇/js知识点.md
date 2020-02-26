@@ -244,7 +244,8 @@
     ![webkit](./img/3.webp)
 
   **Webkit技术内幕**
-    ![yinqing](./img/4.webp)
+
+  ![yinqing](./img/4.webp)
   * 渲染引擎: HTML解析器、CSS解析器、JS解析器(独立出来)
   * DOM渲染层, 一个页面是有许多许多层级组成的, 实际上一个页面在构建完render tree之后,是经历了:
     * 浏览器会先获取DOM树并依据样式将其分割成多个独立的渲染层
