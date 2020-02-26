@@ -27,6 +27,8 @@ C -> controler msgManager UserInfoManager
 
 M -> model UserInfo GroupInfo
 
+
+
 通用的工具模块封装
 数据持久化:
   DB-> 封装为两个模块 数据库表设计啊
@@ -81,3 +83,6 @@ Session模块的封装
   MQQT协议上 封装一层连接，会话，创建等等。
 
 
+#### [！！！this 永远指向最后一个调用它的对象，匿名函数的 this 永远指向 window](https://juejin.im/post/59bfe84351882531b730bac2)
+
+#### [electron 性能优化](https://juejin.im/post/5e0010866fb9a015fd69c645)

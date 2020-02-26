@@ -1,4 +1,22 @@
 
+
+
+#### [！！！this 永远指向最后一个调用它的对象](https://juejin.im/post/59bfe84351882531b730bac2)
+```
+  var name = 'windowName'
+  var a = {
+    name: null,
+    fn: function () {
+      console.log(this.name) // windowsName
+    }
+  }
+  var f = a.fn;
+  f();
+```
+这里你可能会有疑问，为什么不是 Cherry，这是因为虽然将 a 对象的 fn 方法赋值给变量 f 了，但是没有调用，再接着跟我念这一句话：“this 永远指向最后调用它的那个对象”，由于刚刚的 f 并没有调用，所以 fn() 最后仍然是被 window 调用的。所以 this 指向的也就是 window。
+
+
+
 一、 this指向并不是在函数定义的时候确定的，而是在调用的时候确定的，函数的调用方式决定了this指向
 
 二、 普通函数的调用方式有三种: 直接调用，方法调用和new调用。除此之外，还有一些特殊的调用方式, bind()、call()、apply(), 箭头函数调用时，this指向又有所不同，

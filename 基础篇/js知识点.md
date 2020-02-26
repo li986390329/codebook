@@ -332,8 +332,76 @@
 ### TCP 和 UDP
   TCP是可靠地，不会丢包，不会乱序，失败了还会重发，UDP需要应用层做协议来保证可靠性，视频可以UDP,广播。
 
+### [js 预编译及变量提升详解](https://juejin.im/post/5aa6693df265da23884cb571)
+  js 属于解释型语言
 ### 浏览器内核
   Chromium 是多进程架构
   * 架构
   ![架构](./img/1.webp)
   ![多进程架构](./img/2.webp)
+
+### 如何实现一个深拷贝
+```
+  function clone (obj) {
+    if (obj == null || typeof obj !== 'object') return obj
+    let newObj = null
+    // 时间对象有特殊性
+    if (obj.constructor == Date) {
+      newObj = new obj.constructor(obj)
+    } else {
+      newObj = obj.constructor(obj)
+    }
+
+    for(let key in Object.getOwnPropertyDescriptors(obj)) {
+      newObj[key] = clone(obj[key])
+    }
+    return newObj
+  }
+```
+
+### 实现深比较
+```
+  fucntion deepCompare(a, b) {
+    if ( a === null
+      || typeof a !== 'object'
+      || b === null
+      || typeof b !== 'object'
+    ) {
+      return a === b
+    }
+    const propsA = Object.getOwnPropertyDescriptors(a)
+    const propsB = Object.getOwnPropertyDescriptors(b)
+    if (Object.keys(propsA).length !== Object.key(propsB).length) {
+      return false
+    }
+    return Object.keys(propsA).every( key => deepCompare(a[key], b[key]))
+  }
+```
+
+### [原生的bind方法](cppblog.com/wanghaiguang/archive/2013/12/26/205020.html)
+```
+  Function.prototype._bind = function (context) {
+    let self = this
+    let arg_1 = Array.prototype.slice.call(arguments, 1)
+    return function () {
+      let arg_2 = Array.prototype.slice.call(arguments)
+      let args = arg_1.concat(arg_2)
+      return self.apply(context, args)
+    }
+  }
+
+  _bind = function (context) {
+    let self = this
+    return function () {
+      return self.apply(context, arguments)
+    }
+  }
+```
+
+### call和apply只是传入参数不同, bind需要手动去调用
+
+### new的过程
+  1. 创建一个新的空对象obj
+  2. 将新创建的空对象的隐式原型指向其构造函数的显示原型 obj.__proto__ = myFunction.prototype;
+  3. 使用call改变this的指向 var result = myFunction.call(obj, "Li", "cherry")
+  4. 如果无返回值或者返回一个非对象值，则将obj返回作为新对象，如果返回值是一个新对象的话，那么直接返回该对象
