@@ -235,3 +235,113 @@ function quickSort(array) {
   })
   return quickSort(frontArr).concat([mid], quickSort(bebindArr))
 }
+
+
+// 实现DOM树的最大深度
+function getEleDeep($element) {
+  var map = function map(cb) {
+    return function (arr) {
+      return Array.prototype.map.call(arr, cb);
+    };
+  };
+  var max = function max(arr) {
+    return arr.reduce(function (acc, cur) {
+      if (cur >= acc) return cur;
+      else return acc;
+    }, arr[0]);
+  }
+  var nextChildren = function nextChildren(node) {
+    if (node.children.length === 0) return 1;
+    else {
+      var deeps = map(nextChildren)(node.children);
+      return 1 + max(deeps);
+    }
+  }
+  var deep = nextChildren($element)
+  return deep;
+}
+
+const getDepth = node => {
+  if (!node.children || node.children.length === 0) {
+    return 1;
+  }
+  const maxChildrenDepth = [...node.children].map(v => getDepth(v));
+  return 1 + Math.max(...maxChildrenDepth)
+}
+
+// 广度优先遍历
+function traverseByBFS(domRoot) {
+  var queue = [domRoot];
+  while (queue.length) {
+    var node = queue.shift();
+    console.log(node);
+    if (!node.children.length) {
+      continue;
+    }
+    Array.from(node.children).forEach(x => queue.push(x))
+  }
+}
+
+function traverseByBFS(domRoot) {
+  let queue = [domRoot];
+  while (queue.length) {
+    let node = queue.shift();
+    console.log('node', node);
+    if (!node.children.length) {
+      continue;
+    }
+    Array.from(node).map(x => queue.push(x));
+  }
+}
+
+// 深度优先搜索
+
+function traverseByDFS(domRoot) {
+  let child = domRoot.firstElementChild;
+  while (child) {
+    console.log(child);
+    traverseByBFS(child);
+    child = child.nextElementSibling; // nextElementSibling 返回当前元素在其父元素的子元素节点中的后一个元素节点,如果该元素已经是最后一个元素节点,则返回null,该属性是只读的.
+  }
+}
+
+function traverseByDFS(domRoot) {
+  let child = domRoot.firstElementChild;
+  while (child) {
+    console.log(child);
+    traverseByDFS(child);
+    child = child.nextElementSibling; // nextElementSubling;
+  }
+}
+
+function getMaxDomTreeDepth_DFS(domRoot) {
+  let childrenDepth = [];
+  let child = domRoot.firstElementChild;
+  if (!child) return 1;
+  while (child) {
+    console.log(child);
+    childrenDepth.push(getMaxDomTreeDepth_DFS(child));
+    child = child.nextElementSibling;
+  }
+  return Math.max(...childrenDepth) + 1;
+}
+
+function getMaxDomTreeDepth_BFS(domRoot) {
+  var queue = [domRoot];
+  var domDepth = 0;
+  while (queue.length) {
+    domDepth++;
+    var currentSize = queue.length;
+    var count = 0;
+    while (count < currentSize) {
+      ++count;
+      var node = queue.shift();
+      console.log(node);
+      if (!node.children.length) {
+        continue;
+      }
+      Array.from(node.children).forEach(x => queue.push(x));
+    }
+  }
+  return domDepth;
+}

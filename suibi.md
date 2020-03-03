@@ -21,8 +21,14 @@
    4. window.postMessage
    5. iframe
    6. Cors 自动添加一些附加头信息，
-## 遍历数组
+### 遍历数组
   1. 能用for缓存的方法循环就用for循环，性能最好，写起来繁杂
   2. 不追求极致性能的情况下，建议使用foreach方法，干净简单
   3. 不考虑兼容性的情况下，推荐使用for of方法，最简洁、最直接的遍历数组元素的语法，避开了for-in 循环的所有缺陷与forEach()不同的是，他可以正确响应break，continue和return语句
   4. 避免for in循环尽量避免，太消费性能，太费时间，数组循环不推荐使用
+
+### 渲染十万条数据，如何不卡顿
+   1. 用innerHtml插入DOM, 而不是用document.createElement
+   2. 用数组来缓存dom字符串，先push进来， 最后子再直接join('')
+   3. 插入dom节点，还可以使用克隆技术, 文档断片createDocumentFragment.
+   4.
