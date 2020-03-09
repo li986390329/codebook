@@ -107,19 +107,19 @@
   function QuickSort(arr) {
     if (arr.length <= 1) return arr
     let mid = Math.floor(arr.length / 2)
+    let midValue = arr.splice(mid, 1)[0]
     let leftArr = []
     let rightArr = []
     for (let i = 0, len = arr.length; i < len; i++) {
-      if (arr[i] < arr[mid]) {
+      if (arr[i] < midValue) {
         leftArr.push(arr[i])
-      } else if (arr[i] > arr[mid]){
+      } else {
         rightArr.push(arr[i])
       }
     }
     let resLeftArr = QuickSort(leftArr)
     let resRightArr = QuickSort(rightArr)
-    resRightArr.unshift(arr[mid])
-    return resLeftArr.concat(resRightArr)
+    return QuickSort(leftArr).concat(midValue, QuickSort(rightArr))
   }
 ```
 
