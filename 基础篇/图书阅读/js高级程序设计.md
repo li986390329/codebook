@@ -1,5 +1,23 @@
 ### [重读javaScript](https://juejin.im/post/5a9a9f0d518825558c46de8f)
 
+#### Number类型
+  八进制字面量在严格模式下无效
+  浮点数的最高精度是17位小数
+  isFinite(num)确定一个数字是否有穷
+  最小值为Number.MIN_VALUE中, Number.MAX_VALUE中
+  NaN表示非数值,任何数值除以非数值会返回NaN
+  isNaN()用来确定传入的参数是否为非数值
+  parseFloat主要用于解析有效的浮点数字, 始终会忽略前导的零
+#### 字符串
+  toString()转换为字符串
+  let num = 10; num.toString(); n表示进制, 可选2,8,10,16
+#### 循环
+#### 变量, 作用域和内存问题
+1. 传递参数
+   1. 所有的参数都是按值传递的. 在向参数传递引用类型时, 会把这个值在内存中的地址复制给一个局部变量, 因此这个举不避那脸的变化会梵音在函数外部。
+   2. 当在函数内部重写obj时, 这个变量引用的就是一个局部对象，而这个局部对象会在函数执行完毕后立即被销毁
+#### 函数方法
+  apply()
 #### 函数没有重载
   ES 函数不能向传统意义上那样实现重载, 而在其他语言（如Java）中，可以为一个函数编写两个定义，只要这两个定义的签名（接受的参数类型和数量）不同即可[p66]。
   ES 是松散形的，没有签名，所以是没有重载的，后面的函数声明会覆盖掉前面的函数声明
@@ -51,33 +69,33 @@
 #### 创建对象
   Object构造函数或兑现字面量都可以用来创建单个对象，缺点： 使用同一个接口创建很多对象，会产生大量的重复代码。
   **工厂模式**
-    ```
-      function createPerson(name, age, job) {
-        var o = new Object();
-        o.name = name;
-        o.age = age;
-        o.job = job;
-        o.sayName = function () {
-          alert(this.name);
-        };
-        return o;
-      }
-      var person1 = createPerson('nich', 29, 'soft');
-      var person2 = createPerson('greg', 27, 'doctor');
-    ```
+ ```
+   function createPerson(name, age, job) {
+     var o = new Object();
+     o.name = name;
+     o.age = age;
+     o.job = job;
+     o.sayName = function () {
+       alert(this.name);
+     };
+     return o;
+   }
+   var person1 = createPerson('nich', 29, 'soft');
+   var person2 = createPerson('greg', 27, 'doctor');
+ ```
   **构造函数模式**
-    ```
-      function Person(name, age, job) {
-        this.name = name;
-        this.age = age;
-        this.job = job;
-        this.sayName = functin () {
-          alert(this.name);
-        };
-      }
-      var person1 = new Person('nich', 29, 'soft');
-      var person2 = new Person('greg', 27, 'doctor');
-    ```
+ ```
+   function Person(name, age, job) {
+     this.name = name;
+     this.age = age;
+     this.job = job;
+     this.sayName = functin () {
+       alert(this.name);
+     };
+   }
+   var person1 = new Person('nich', 29, 'soft');
+   var person2 = new Person('greg', 27, 'doctor');
+ ```
     使用new操作符，调用构造函数实际上会经历4个步骤:
       1. 创建一个新的对象
       2. 将构造函数的作用域赋给新的对象(this指向这个新对象)

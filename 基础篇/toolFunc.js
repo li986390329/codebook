@@ -349,5 +349,3 @@ function getMaxDomTreeDepth_BFS(domRoot) {
 function binarySearchTree(keys) {
 
 }
-
-functino

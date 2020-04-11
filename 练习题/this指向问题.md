@@ -1,6 +1,3 @@
-
-
-
 #### [！！！this 永远指向最后一个调用它的对象](https://juejin.im/post/59bfe84351882531b730bac2)
 ```
   var name = 'windowName'
@@ -210,3 +207,6 @@
         }
       ```
       注意: 箭头函数不能用new调用，不能bind到某个对象(虽然bind()方法调用没问题, 但是不会产生预期效果)。不管在什么情况下使用箭头函数，它本身是没有绑定this的，他用的直接外层函数(即包含她的最近的一层函数或函数表达式)囊东的this.
+
+匿名函数的执行环境具有全局性，因为其this对象通常指向window
+  (object.say = object.say)() 函数内部this指向window
